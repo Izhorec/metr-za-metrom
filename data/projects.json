@@ -1,0 +1,945 @@
+{
+ "name": "Метр за метром",
+ "updated": "2026-10-15",
+ "note": "Анонсы, скорые старты и проекты со стартом продаж из канала. Все записи verified:false. Поля internalNote и sources в интерфейсе не показываются. Цены только в prices у status=sale; дата asOf в карточке не показывается.",
+ "statuses": {
+  "announce": "Анонс",
+  "soon": "Скоро старт",
+  "sale": "Старт продаж"
+ },
+ "projects": [
+  {
+   "id": "spb-gdovskaya-4",
+   "city": "spb",
+   "region": "spb",
+   "name": "Гдовская, 4",
+   "developer": "Энергия",
+   "district": "Петроградский",
+   "address": "Гдовская ул., 4, лит. А",
+   "class": "премиум",
+   "classLabel": "элит",
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Камерный клубный дом на месте гаражей 1937 года с автосервисом на Петроградской стороне: светлый кирпич, арочные окна, балконы и мансарда в медных тонах, высота до 33 м. Градкомиссия в августе 2026 одобрила 3,2 тыс. м² квартир, подземный гараж и встроенные помещения; КГИОП ранее согласовал эскиз. Взамен застройщик отремонтирует и передаст городу помещение 317 м² на ул. Красного Курсанта под досуговый центр и отдаст две квартиры. Следующий шаг — разрешение на строительство. До «Чкаловской» около 15 минут пешком, рядом Малая Невка и Крестовский остров.",
+   "internalNote": "Пост 14.10.2026 (581–587). Застройщик в посте — ООО «Энергия», в карточке бренд «Энергия». Рендеры — кропы слайдов канала без текстовых зон. Адрес уточнён по nsp.ru (Гдовская, 4, лит. А).",
+   "sources": [
+    "https://t.me/Max_pro_flat/581",
+    "https://nsp.ru/44934-nebolsoi-elitnyi-dom-postroyat-naprotiv-bc-triniti"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/581",
+   "publishedAt": "2026-10-14T06:54:01+00:00",
+   "images": [
+    "img/spb-gdovskaya-4/1.webp",
+    "img/spb-gdovskaya-4/2.webp",
+    "img/spb-gdovskaya-4/3.webp",
+    "img/spb-gdovskaya-4/4.webp"
+   ],
+   "imageSources": [
+    "https://t.me/Max_pro_flat/581",
+    "https://t.me/Max_pro_flat/581",
+    "https://t.me/Max_pro_flat/581",
+    "https://t.me/Max_pro_flat/581"
+   ],
+   "lat": 59.9634,
+   "lng": 30.2746,
+   "coordPrecision": "approx",
+   "verified": false
+  },
+  {
+   "id": "spb-lsr-ivana-chernykh",
+   "city": "spb",
+   "region": "spb",
+   "name": "Квартал у м. «Нарвская»",
+   "developer": "Группа ЛСР",
+   "district": "Кировский",
+   "address": "ул. Ивана Черных, 16",
+   "class": null,
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Три корпуса со встроенными помещениями и подземной автостоянкой в 300–350 м от метро «Нарвская»: Градкомиссия в августе согласовала 58,4 тыс. м² квартир (около 2,1 тыс. жителей), КГИОП согласовал строительство. Вместе с домами построят образовательный комплекс на 405 мест: детский сад на 130 детей и школу на 275 учеников. Участок 6,2 га — бывшая территория «Метростроя», где с 1950-х работал завод железобетона для метро. На участке сохранят особняк Тейхмана 1899 года (региональный памятник) — в нём планируют ресторан. Рядом Нарвские ворота и «Красный треугольник».",
+   "internalNote": "Пост 11.10.2026: КГИОП согласовал строительство. Название ЖК не объявлено, РНС и сроки продаж не найдены. Официальных рендеров нет (см. /workspace/ivana_chernykh/SOURCES.txt); слайды поста с текстом в галерею не взяты. Посты 535–540 — один альбом.",
+   "sources": [
+    "https://t.me/Max_pro_flat/535",
+    "https://news78.ru/news/realty/na-meste-byvshego-zavoda-metrostroya-v-peterburge-postroyat-zhile/",
+    "https://www.dp.ru/a/2026/08/06/smolnij-projavil-bezotkaznost"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/535",
+   "publishedAt": "2026-10-11T16:29:01+00:00",
+   "images": [],
+   "imageSources": [],
+   "lat": 59.9025,
+   "lng": 30.2805,
+   "coordPrecision": "approx",
+   "verified": false
+  },
+  {
+   "id": "spb-remeslennaya-17",
+   "city": "spb",
+   "name": "Ремесленная, 17",
+   "developer": "Геометрия",
+   "district": "Петроградский",
+   "address": "Ремесленная ул., 17, Петровский остров, первая линия Малой Невы",
+   "classLabel": "элит",
+   "status": "soon",
+   "salesStart": "октябрь 2026 (план)",
+   "completion": "IV кв. 2029",
+   "description": "Первый проект молодого девелопера «Геометрия» (основатель — Александр Кравцов, сооснователь Fizika Development). Около 350 квартир элит-класса (разрешение позволяло 477, но квартиры укрупнят), примерно 30,7 тыс. м² продаваемой жилой площади. Фактически это вторая очередь Neva Residence: первую очередь на соседнем участке ввели в 2023 году. Участок куплен у Группы ЛСР с готовой проектной документацией и разрешением на строительство; компания называет его одним из последних свободных участков на первой линии Невы. Выход на стройку и старт продаж — октябрь 2026, ввод — IV кв. 2029. Кадастровый номер участка 78:07:0315202:156.",
+   "internalNote": "Название проекта не объявлено. Рендеры вырезаны из слайдов поста 514 (без текста). Официальный сайт застройщика не проверялся.",
+   "sources": [
+    "https://t.me/Max_pro_flat/514"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/514",
+   "publishedAt": "2026-10-09T12:50:26+00:00",
+   "images": [
+    "img/spb-remeslennaya-17/1.webp",
+    "img/spb-remeslennaya-17/2.webp",
+    "img/spb-remeslennaya-17/3.webp",
+    "img/spb-remeslennaya-17/4.webp"
+   ],
+   "imageSources": [
+    "https://t.me/Max_pro_flat/514",
+    "https://t.me/Max_pro_flat/514",
+    "https://t.me/Max_pro_flat/514",
+    "https://t.me/Max_pro_flat/514"
+   ],
+   "lat": 59.9585,
+   "lng": 30.27,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "spb"
+  },
+  {
+   "id": "spb-9-sovetskaya-17",
+   "city": "spb",
+   "name": "9-я Советская, 17",
+   "developer": "Еврострой",
+   "district": "Центральный",
+   "address": "9-я Советская ул., 17",
+   "classLabel": "элит",
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Элитный дом на 89 квартир, около 6,6 тыс. м²: три секции до 7 этажей с фасадами на 8-ю и 9-ю Советские и пешеходной галереей между улицами. Архитектор Михаил Мамошин. Разрешение на строительство действует до 2035 года.",
+   "internalNote": "Сделка по участку на стадии покупки (пост 07.10.2026).",
+   "sources": [
+    "https://t.me/Max_pro_flat/497"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/497",
+   "publishedAt": "2026-10-07T16:40:36+00:00",
+   "images": [],
+   "imageSources": [],
+   "lat": 59.9387,
+   "lng": 30.3722,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "spb"
+  },
+  {
+   "id": "spb-kollegiya",
+   "city": "spb",
+   "name": "Коллегия",
+   "developer": "ФСК",
+   "district": "Выборгский",
+   "address": "пр. Тореза, 42",
+   "classLabel": null,
+   "status": "soon",
+   "salesStart": "открыт лист ожидания",
+   "completion": null,
+   "description": "Клубный дом из трёх 8-этажных секций с Г-образным планом и закрытым двором. 174 квартиры от 35 до 76 м², потолки до 3 м, фасады из терракотового клинкера, подземный паркинг на 91 место. Концепция — «Студия 17». 5 минут пешком до Сосновки.",
+   "internalNote": "Класс «комфорт» только по агрегаторам — не указан.",
+   "sources": [
+    "https://t.me/Max_pro_flat/488",
+    "https://78.ru/news/2026-04-03/na-prospekte-toreza-odobren-proekt-novogo-zhilogo-doma",
+    "https://tvspb.ru/news/2026/04/2/kga-na-prospekte-toreza-postroyat-novyj-zhiloj-dom"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/488",
+   "publishedAt": "2026-10-06T12:05:29+00:00",
+   "images": [
+    "img/spb-kollegiya/1.webp",
+    "img/spb-kollegiya/2.webp",
+    "img/spb-kollegiya/3.webp"
+   ],
+   "imageSources": [
+    "https://78.ru/news/2026-04-03/na-prospekte-toreza-odobren-proekt-novogo-zhilogo-doma",
+    "https://78.ru/news/2026-04-03/na-prospekte-toreza-odobren-proekt-novogo-zhilogo-doma",
+    "https://78.ru/news/2026-04-03/na-prospekte-toreza-odobren-proekt-novogo-zhilogo-doma"
+   ],
+   "lat": 60.0128,
+   "lng": 30.3466,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "spb"
+  },
+  {
+   "id": "spb-yuntolovo-glavstroy",
+   "city": "spb",
+   "name": "Квартал в Юнтолово",
+   "developer": "Главстрой",
+   "district": "Приморский",
+   "address": "Юнтолово",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "КГА согласовал облик квартала на 18,5 га: 11 домов высотой 7–17 этажей и детский сад на 280 мест.",
+   "internalNote": "Рендеры из поста 479 (исходники в /workspace/yuntolovo), первоисточник картинок не зафиксирован.",
+   "sources": [
+    "https://t.me/Max_pro_flat/479"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/479",
+   "publishedAt": "2026-10-04T15:05:35+00:00",
+   "images": [
+    "img/spb-yuntolovo-glavstroy/1.webp",
+    "img/spb-yuntolovo-glavstroy/2.webp",
+    "img/spb-yuntolovo-glavstroy/3.webp",
+    "img/spb-yuntolovo-glavstroy/4.webp"
+   ],
+   "imageSources": [
+    "https://t.me/Max_pro_flat/479",
+    "https://t.me/Max_pro_flat/479",
+    "https://t.me/Max_pro_flat/479",
+    "https://t.me/Max_pro_flat/479"
+   ],
+   "lat": 60.02,
+   "lng": 30.22,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "spb"
+  },
+  {
+   "id": "spb-kolpino-admiralteyskaya",
+   "city": "spb",
+   "name": "Адмиралтейская, уч. 22",
+   "developer": null,
+   "district": "Колпинский",
+   "address": "Колпино, Адмиралтейская ул., уч. 22",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Получено разрешение на строительство пятиэтажного дома на 105 квартир: 50 однокомнатных, 35 двухкомнатных и 20 трёхкомнатных, средняя площадь 63,5 м². Подземный паркинг на 79 мест.",
+   "internalNote": "Застройщик в посте не назван. Кадастр 78:37:1710203:2198.",
+   "sources": [
+    "https://t.me/Max_pro_flat/474"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/474",
+   "publishedAt": "2026-10-04T08:26:01+00:00",
+   "images": [
+    "img/spb-kolpino-admiralteyskaya/1.webp",
+    "img/spb-kolpino-admiralteyskaya/2.webp"
+   ],
+   "imageSources": [
+    "https://cdn4.telesco.pe/file/E_7BGjywGIS82WXEMg8R4k9jAwhCZYHQAA6TACPWWVhJoLHMiutfBSSN9M4vzWsI4VWZZhusTGtcSep88kYSF9m9IKldmd6n01ndb2FrWBgeM1XOruRdd0URRkIDwvZEAVy1ASEvraRvjApQ7PHQAqHuQjNQ3pmZFM0m-WXAQhb2uXM432UV_CHbIvwVP0aL0EV7050TJlB7536jbfZo7DCiszS4lZ7bbYV4QOpM5EO0zqzCjyrmJl_d1v6PJhh0BRq8arJESZVOXH6fGqowETdMBwrVgOKycZWhzunXXNFH9lE5MClMAsI1ZvE1jLpeQSLxnEoGiUqjNn0Osg9e0g.jpg",
+    "https://cdn4.telesco.pe/file/Zx6LCpQBjfj8RiYzsArD6lTOyRi-slPS90gdxmPQ4mgNhGlgR61nZ3MilBpwjJliFRtY-GurWD4x3Ja0tqavNVtS6dsCD3cjWFIa_0YtzlH95WZcnBt6QqA5wJ5oFs5ubs0EYwrXi4cwhUe_rtcJh-ht-p-1_IDs9SNs9vxb_n8eFXlGSbfVCWO9692Zam95LbJ_LrnOVyaOipciFtEEaSjdoY0AAqNBRPURAdlfeF2hYaCc9O10_8rDnBQBKSDRC3T_omNqYhCkNS2Z2WUKiFkZSJxM4AbDeBvUZUZ96zXgd05lijZ-xijURt1iAAfikg6yf_4XEHjJVmH_ZvZNuA.jpg"
+   ],
+   "lat": 59.747,
+   "lng": 30.58,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "spb"
+  },
+  {
+   "id": "spb-lsr-akademicheskaya",
+   "city": "spb",
+   "name": "Квартал у м. «Академическая»",
+   "developer": "Группа ЛСР",
+   "district": "Калининский",
+   "address": "в 200 м от м. «Академическая»",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Дома от 9 до 24 этажей на участке 6,4 га: около 100 тыс. м² квартир, подземный паркинг на 1 101 место, две школы на 1 650 мест, три детских сада на 600 мест и поликлиника.",
+   "internalNote": "Кадастр 78:10:0005210:10249. В посте только схема участка — рендеров нет.",
+   "sources": [
+    "https://t.me/Max_pro_flat/462"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/462",
+   "publishedAt": "2026-09-30T15:37:31+00:00",
+   "images": [],
+   "imageSources": [],
+   "lat": 60.0142,
+   "lng": 30.3992,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "spb"
+  },
+  {
+   "id": "spb-kurskaya-11",
+   "city": "spb",
+   "name": "Курская, 11/72",
+   "developer": null,
+   "district": "Фрунзенский",
+   "address": "Курская ул., 11/72",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": "2027 (план)",
+   "completion": null,
+   "description": "Реконструкция: старый фонд надстроят до 6 этажей, во дворе появится новая 7-этажная секция. 125 квартир и подземный паркинг на 37 мест. КГИОП согласовал эскизный проект.",
+   "internalNote": "Застройщик в посте не назван; данные со ссылкой на NSP.",
+   "sources": [
+    "https://t.me/Max_pro_flat/461"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/461",
+   "publishedAt": "2026-09-30T08:18:30+00:00",
+   "images": [
+    "img/spb-kurskaya-11/1.webp"
+   ],
+   "imageSources": [
+    "https://cdn4.telesco.pe/file/dQKozBo5UemR5dRv2y5VXvyyqzi9lRj4wRW6HvMpgsoAb8yp9kGlIelgvmXoLGNJrDwnL07UFxif4gyWuTell1-ebMXjV8najyr5RYK3t43W6x4-DfJzTATe4AIHMjYumM_myy7NfR4REgGrnAaCXQwfB-AZpqwAPmzKyqfjN34Ri73smQ4TFGP6lCa_T4Jw35jlrsPI7XykiMk9MUFh77qPXYIbCtDaw67m3u5JxFSYiv1K8YB2Se5lqtOqnvm_1VffKLORPoRqKM-JEQsA3-shZ4-6bl7Fdz6pDQoVWGv1LtBKLnyC2t_XsePCQ8InbFGjHIeIi0CTtTfIXZ-t9g.jpg"
+   ],
+   "lat": 59.9103,
+   "lng": 30.354,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "spb"
+  },
+  {
+   "id": "spb-kronung-beregovaya",
+   "city": "spb",
+   "name": "Береговая, 2а",
+   "developer": "Кронунг",
+   "district": "Выборгский (Шувалово)",
+   "address": "Береговая ул., 2а, лит. Б",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Получено разрешение на строительство 8-этажного дома на 244 квартиры, средняя площадь 43,2 м². 143 кладовых и подземный паркинг на 119 мест.",
+   "internalNote": null,
+   "sources": [
+    "https://t.me/Max_pro_flat/456"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/456",
+   "publishedAt": "2026-09-28T16:04:01+00:00",
+   "images": [
+    "img/spb-kronung-beregovaya/1.webp"
+   ],
+   "imageSources": [
+    "https://cdn4.telesco.pe/file/ntJLhjaeanvXtnslrXDUB6m1udQPS9SxK5FpKYp_K-5ksr1U_sNKKko4SpfLI6jz3905lw7clVhOATOt1EPhAnQmwESN-nNXiRvMGcwTURipx5rO-oimiAUkVih4EcN3ul_S_J3LfnSoUMIVF3YYMHYLlYQbWGSRu2kAp_W32knLTr3LT4SbSk8_Zs5C_ZZ-U0wElS76PL1AdJ0ZvUx86hihit8kabfLKz478qeqSsEB16a8LQ1Vw6BuejIrReP9wxTEZ2iEf1kJ1err2R8QMmxoJZsv2KkZa07NtbaFzBiLMjTMr7Ij0HYnd55JAMemw48GS6c8cmSujh1gHHbkSw.jpg"
+   ],
+   "lat": 60.0545,
+   "lng": 30.3,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "spb"
+  },
+  {
+   "id": "spb-berggolts-20",
+   "city": "spb",
+   "name": "Ольги Берггольц, 20",
+   "developer": "Брусника",
+   "district": "Невский",
+   "address": "угол ул. Ольги Берггольц и ул. Пинегина",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "8-этажный дом с коммерцией на первых этажах и встроенным детским садом на 60 мест на участке 0,93 га у Палевского сада.",
+   "internalNote": null,
+   "sources": [
+    "https://t.me/Max_pro_flat/417"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/417",
+   "publishedAt": "2026-05-25T13:44:37+00:00",
+   "images": [
+    "img/spb-berggolts-20/1.webp"
+   ],
+   "imageSources": [
+    "https://cdn4.telesco.pe/file/Oaty1pjW999obxATYVDuFIfa7HGEaoeqHbiAl8wxgat5ECygkKCbYjaiHW37WXzaaZNhV2jj9_DDd5jOyAnCFUs4HFlC_9H90ZPcUtcKZUuEwn2wOHPJblIyNRsKk2nJeTIrOrMOqJ9rF2w5o-pD2VEpKkdeAZmExClv0A4FpDzG-QU-LKP53e-UGS6eLHlrqznYvlbOWkAKae6m5mzUcQpUWkxdo8oI2UrUubxsDPKgUDTZDbCEehTTchCuY9_jRwmahbExQMPMDOz87pK_3dzY7aLQ7l250p163cmiRLlS2_FkfnbDroGGIwGkL_FL1vtwWi-QPFl3cracbjV4FQ.jpg"
+   ],
+   "lat": 59.8985,
+   "lng": 30.427,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "spb"
+  },
+  {
+   "id": "spb-rimskogo-korsakova-69",
+   "city": "spb",
+   "name": "Римского-Корсакова, 69",
+   "developer": "Балтийская коммерция",
+   "district": "Адмиралтейский",
+   "address": "пр. Римского-Корсакова, 69 (у Алярчина моста)",
+   "classLabel": "клубный дом",
+   "status": "announce",
+   "salesStart": null,
+   "completion": "к 2030 году",
+   "description": "Клубный дом на 39 квартир в Коломне, прямо на канале Грибоедова, на месте пустовавшего здания школы 1936 года (позже лицей работников связи). Проект «Студии 44» Никиты Явейна: два дома в одном — левая секция выше и плавнее, с тремя эркерами, правая строже и на этаж ниже, до 7 этажей. Фасады в натуральном граните, деревянные рамы, скатная кровля, под крышей мозаика по мотивам декораций Билибина к операм Римского-Корсакова, наверху террасы. Два подземных этажа с паркингом на 36 машин. Градсовет одобрил проект единогласно, КГИОП и КГА согласовали облик, экспертиза пройдена. Реконструкцию планируют начать в 2027 году. Рядом Мариинский театр и Консерватория.",
+   "internalNote": "Пост в канале 14.10.2026 (597–603, альбом); описание обновлено по нему. Название не объявлено; продажи и цены не объявлены. Участок куплен на торгах в конце 2023 за 352,8 млн ₽ (в карточку не выносим). Координаты уточнены по OSM (здание пр. Римского-Корсакова, 69).",
+   "sources": [
+    "https://t.me/Max_pro_flat/597",
+    "https://www.kommersant.ru/doc/8972599",
+    "https://nsp.ru/44199",
+    "https://studio44.ru/project/zhiloj-dom-na-prospekte-rimskogo-korsakova/"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/597",
+   "publishedAt": "2026-10-14T16:42:01+00:00",
+   "images": [
+    "img/spb-rimskogo-korsakova-69/1.webp",
+    "img/spb-rimskogo-korsakova-69/2.webp",
+    "img/spb-rimskogo-korsakova-69/3.webp"
+   ],
+   "imageSources": [
+    "https://studio44.ru/wp-content/uploads/2026/05/rk-house-01.webp",
+    "https://studio44.ru/wp-content/uploads/2026/05/06-dom-rimskogo-korsakova/s08-pdfimg.webp",
+    "https://studio44.ru/wp-content/uploads/2026/05/06-dom-rimskogo-korsakova/s09-pdfimg.webp"
+   ],
+   "lat": 59.92139,
+   "lng": 30.28796,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "spb"
+  },
+  {
+   "id": "spb-glavstroy-parnas",
+   "city": "spb",
+   "name": "Квартал у м. «Парнас»",
+   "developer": "Главстрой",
+   "district": "Выборгский",
+   "address": "в 250 м от м. «Парнас»",
+   "classLabel": "высокий комфорт",
+   "status": "soon",
+   "salesStart": "до конца 2026 (план)",
+   "completion": null,
+   "description": "Корпуса от 4 до 13 этажей на участке 2,91 га: 665 квартир, апарт-отель на 1 442 номера и подземный паркинг. 250 м до метро «Парнас».",
+   "internalNote": null,
+   "sources": [
+    "https://www.fontanka.ru/2026/08/26/76608455/"
+   ],
+   "sourcePostUrl": null,
+   "publishedAt": null,
+   "images": [],
+   "imageSources": [],
+   "lat": 60.068,
+   "lng": 30.336,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "комфорт",
+   "region": "spb"
+  },
+  {
+   "id": "spb-severny-namyv",
+   "city": "spb",
+   "name": "Северный намыв",
+   "developer": "Группа ЛСР",
+   "district": "Василеостровский",
+   "address": "Северный намыв Васильевского острова",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Новый район на 163 га: около 875 тыс. м² жилья, дома до 20 этажей, школы на 4 125 мест, детские сады на 1 960 мест, поликлиника и больница, около 40 га зелени. Первую линию проектируют 13 архитектурных бюро. В октябре 2026 Смольный одобрил проект планировки двух улиц намыва: улица Лисянского пройдёт на 875 м от Новосмоленской набережной до проспекта Крузенштерна, Магистраль №6 на 260 м свяжет Крузенштерна с магистралью №5; на обеих по 4 полосы, тротуары, велодорожки и автобусные остановки.",
+   "internalNote": "Градсовет (05.2026) отправил на доработку; в августе согласованы условия по первым 30 га. Сроки продаж не объявлены. Пост в канале — 12.10.2026 (541–547, альбом). Дополнено по посту 14.10.2026 (588, решения КГА по улицам).",
+   "sources": [
+    "https://t.me/Max_pro_flat/541",
+    "https://www.fontanka.ru/2026/05/27/76445046/",
+    "https://t.me/Max_pro_flat/588"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/541",
+   "publishedAt": "2026-10-12T06:39:01+00:00",
+   "images": [
+    "img/spb-severny-namyv/1.webp",
+    "img/spb-severny-namyv/2.webp",
+    "img/spb-severny-namyv/3.webp",
+    "img/spb-severny-namyv/4.webp"
+   ],
+   "imageSources": [
+    "https://n1s1.hsmedia.ru/77/e8/20/77e82057128d62e4cc41e77e3aebe422/1482x824_0xzyR4pYnK_0959963057211918763.jpg",
+    "https://n1s1.hsmedia.ru/64/bb/f8/64bbf8bac0400212e985d800402c0985/1484x828_0x0zuKYfnh_8434000482202820722.jpg",
+    "https://n1s1.hsmedia.ru/69/b2/d2/69b2d204843ec6f139ab05953117f0b0/1481x824_0xv4kZOJeb_6298314218361146486.jpg",
+    "https://n1s1.hsmedia.ru/2e/d4/b1/2ed4b1b55e63c79e161d9787d0e57f31/1470x827_0xg1HXY9zO_6664328227165449797.jpg"
+   ],
+   "lat": 59.96,
+   "lng": 30.208,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "spb"
+  },
+  {
+   "id": "msk-aurum-time",
+   "city": "msk",
+   "region": "msk",
+   "name": "Аурум Тайм",
+   "developer": "Град Девелопмент",
+   "district": "Богородское (ВАО)",
+   "address": "4-й проезд Подбельского, вл. 3А",
+   "class": null,
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": "IV кв. 2029",
+   "description": "Шесть секций высотой до 46 этажей и шестиэтажный офисный блок вокруг внутреннего двора: 1 468 квартир, около 155 тыс. м², двухуровневый подземный паркинг на 611 машино-мест. Разрешение на строительство выдано.",
+   "internalNote": "Пост 11.10.2026: старт продаж пока не объявлен. Архитектура — бюро APEX. Слайды поста с текстом в галерею не взяты; рендеры — mos.ru и archi.ru. Ввод IV кв. 2029 — по msknovosti.ru. Посты 531–534 — один альбом.",
+   "sources": [
+    "https://t.me/Max_pro_flat/531",
+    "https://www.mos.ru/news/item/176725073/",
+    "https://archi.ru/projects/russia/20529/zhk-aurum-time",
+    "https://msknovosti.ru/news/realty/na-vostoke-moskvy-postroyat-zhiloy-kompleks-na-1468-kvartir/"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/531",
+   "publishedAt": "2026-10-11T12:27:02+00:00",
+   "images": [
+    "img/msk-aurum-time/1.webp",
+    "img/msk-aurum-time/2.webp",
+    "img/msk-aurum-time/3.webp",
+    "img/msk-aurum-time/4.webp"
+   ],
+   "imageSources": [
+    "https://www.mos.ru/upload/newsfeed/articles/da4c862461c35bbb67d8963212272475/4-i_proezd_Podbel_skogo_3_13_ZhK_aurum_Taim.jpg",
+    "https://i.archi.ru/i/492447.jpg",
+    "https://i.archi.ru/i/492450.jpg",
+    "https://i.archi.ru/i/492455.jpg"
+   ],
+   "lat": 55.8188,
+   "lng": 37.7262,
+   "coordPrecision": "approx",
+   "verified": false
+  },
+  {
+   "id": "msk-etalon-novocheremushkinskaya",
+   "city": "msk",
+   "name": "Новочерёмушкинская, 25",
+   "developer": "Эталон",
+   "district": "Академический (ЮЗАО)",
+   "address": "Новочерёмушкинская ул., вл. 25",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Премиальный комплекс из двух корпусов на 11 и 18 этажей: 92 квартиры, включая пентхаусы с террасами.",
+   "internalNote": "В посте фото стройплощадки, рендеров нет.",
+   "sources": [
+    "https://t.me/Max_pro_flat/483"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/483",
+   "publishedAt": "2026-10-05T07:15:18+00:00",
+   "images": [],
+   "imageSources": [],
+   "lat": 55.6868,
+   "lng": 37.577,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "msk"
+  },
+  {
+   "id": "msk-gpz1-dubrovka",
+   "city": "msk",
+   "name": "Квартал на месте ГПЗ-1",
+   "developer": null,
+   "district": "Южнопортовый (ЮВАО)",
+   "address": "Шарикоподшипниковская ул., у м. «Дубровка»",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Концепция бюро Syntaxis: квартал на 3,9 га внутри ТТК с двумя башнями высотой 200 и 182 м и домами пониже. Фасады из сдвинутых блоков отсылают к супрематизму Малевича.",
+   "internalNote": "Только концепция: застройщик не назван, о РНС и АГР не сообщалось.",
+   "sources": [
+    "https://t.me/Max_pro_flat/500",
+    "https://moskvichmag.ru/gorod/poyavilsya-proekt-neboskrebov-iz-raspadayushhihsya-pikselej-u-metro-dubrovka/"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/500",
+   "publishedAt": "2026-10-08T12:45:36+00:00",
+   "images": [
+    "img/msk-gpz1-dubrovka/1.webp",
+    "img/msk-gpz1-dubrovka/2.webp",
+    "img/msk-gpz1-dubrovka/3.webp"
+   ],
+   "imageSources": [
+    "https://storage.yandexcloud.net/moskvichmag/uploads/2026/10/dubrovv1.jpg",
+    "https://t.me/syntaxisarch/1638",
+    "https://t.me/syntaxisarch/1640"
+   ],
+   "lat": 55.7215,
+   "lng": 37.672,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "msk"
+  },
+  {
+   "id": "msk-dom-vysoty",
+   "city": "msk",
+   "name": "Дом Высоты (квартал «МИГ»)",
+   "developer": "Capital Group",
+   "district": "Беговой (САО)",
+   "address": "Ленинградский пр-т, у м. «Динамо»",
+   "classLabel": null,
+   "status": "soon",
+   "salesStart": "предбронирование с сентября 2026",
+   "completion": "ключи в марте 2031",
+   "description": "Первый небоскрёб квартала на месте завода «МиГ»: 48 этажей, более 400 квартир, потолки 3,4 м. Архитектура Kleinewelt Architekten.",
+   "internalNote": null,
+   "sources": [
+    "https://t.me/Max_pro_flat/445",
+    "https://rnrf.ru/news/31709-startovali-prodazhi-srazu-chetyreh-krupnyh-proektov-v-moskve/"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/445",
+   "publishedAt": "2026-09-27T15:49:01+00:00",
+   "images": [
+    "img/msk-dom-vysoty/1.webp",
+    "img/msk-dom-vysoty/2.webp",
+    "img/msk-dom-vysoty/3.webp",
+    "img/msk-dom-vysoty/4.webp"
+   ],
+   "imageSources": [
+    "https://cdn4.telesco.pe/file/PVSQWSnrNrNedImE_YS2KI5cF2Tuo60rEMsqEjg0h0qYQAsWQkKJDDUYCElfFo0RDBzgu3-BUMuSuSjg1IxtwzUkNGHFY6pu7nN9Tb38yY-Tj0A68nc48Bw3Adr7zwN7_uEGorVJnNzwwoImhNrqLy1LKXgo_9wOG8QrXBMhLg9zMcryBPeZzTcs9iiSmXsGtw_j-Q5UqCpyU5igy9fv9wI6CYKdR63M13ieW3pMw_rk4SCcSfrjaBMuwdOscc59RRR416PocHiVffXcJMme-zKxHzKzgBKCgidv1MpsPBt009pjqlRjp6_FpYctTFbjc6yTJ_BKBFCKpKdT0ogQ4Q.jpg",
+    "https://cdn4.telesco.pe/file/pRY24RpWnlz530ym3ErxtG6YCal_6XFL1XQva-q7xT30EyOKaaIoYXBk03NIQtAziMxMVjuGbPnEjfi-SsjxIQ7fYZbGVRkqief0R9pmcaT_jW99hQWAszGRzRnA1ROttDOQ2HoNJlvqpeohENCQ_k8iMNX902biEhv_gshZphoghVLo-GMeOBi8r0hF7Zzu0vj_ZgzyJhqJFz8kvaN1X4NZQqW0ffdulv2LeoSh8dxHgkFROFXKLDx3JQF59BqSCrlRRxqs9xdwuuAgEkcbP-c7rzGbsYopaOyM8U8_QKwR0KIXkLHFntEMNbc3SShhyczaMQJo_P8iDJUOrvinnw.jpg",
+    "https://cdn4.telesco.pe/file/N6oFqx1Nk8G-04MvvjUH5V0yBsi2e-wmN0X7wRGauzUASC9I5YFLbbIiIc5_bfDlWX3dGt8va6fwT91BKAVp1L09-d3HhsPg0ridTR50ktZPuAxfVnxouZhPks1YCSXe4iOnZbbnEepc7skEmNGr7givSLTJCNYmLmItqpYkm0sYhLRHFYg3baFaQ-KfvgnCzeNilaPgdjvSjnQbJjeQPzoXz3o3GYjXMz0o6jRjY68CGjAuH-Gkwc47FnZbl80LFdcmh1kszCDN_EUD_renDApfCzY0O9_lg43oY0fARmGpYBe-1glB7eDI4XcNhF8PPwMb9a-teJpaq4HFzyXbCQ.jpg",
+    "https://cdn4.telesco.pe/file/s2f5kFv3Z6rcnzjJH4dY4QoxapcnyTRgGBbot9y47B7QnKSylyuloJt9hVRT7q-yFsrx0NN9ZRi1OJ6A5xtEiSPMSmKbvN4uqbV1fMZvfUbkDZIlvuuSfcGKzBsNcKVBvCcvqrv9Qo4pL3fpJ1t4j4grHYA7V41xov9xvNCWTRXAtV5vgLLwIJB7J3MXr-tugR2Ja_QpbX5EetcBXqBH90cnvphf0BIXDU7CDtOk1yvGsacbISEi7FdB_PlJSfiefCdnjRXm52CtFxlHuxqM4LlbxA9fZu6BO0D-lOQ54WO5M_VrxYNUgODmaf9CrarwgJcJPUXdyj6-2BAi_0i4pw.jpg"
+   ],
+   "lat": 55.7905,
+   "lng": 37.559,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "msk"
+  },
+  {
+   "id": "msk-dom-kino",
+   "city": "msk",
+   "name": "Дом кино",
+   "developer": "Первый девелопер",
+   "district": "Пресненский (ЦАО)",
+   "address": "Васильевская ул., 13, у м. «Маяковская»",
+   "classLabel": null,
+   "status": "sale",
+   "salesStart": "бронирование с августа 2026",
+   "completion": null,
+   "description": "28-этажная башня на 79 квартир от 85 до 342 м² и обновлённый культурный центр Союза кинематографистов. Сад для резидентов на 7-м этаже. Архитектура Kleinewelt Architekten.",
+   "internalNote": "Брокеры бронируют лоты с августа — проверить, не открыты ли официальные продажи.",
+   "sources": [
+    "https://rnrf.ru/news/29462-start-bronirovaniya-kvartir-v-zhilom-komplekse-dom-kino/",
+    "https://anwin.ru/project/zhk-dom-kino"
+   ],
+   "sourcePostUrl": null,
+   "publishedAt": null,
+   "images": [
+    "img/msk-dom-kino/1.webp"
+   ],
+   "imageSources": [
+    "https://anwin.ru/upload/resize_cache/iblock/c68/1920_1920_1/ym1um7w3jmt611vnmzz3m9x7do36yak5.webp"
+   ],
+   "lat": 55.7712,
+   "lng": 37.5935,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "msk"
+  },
+  {
+   "id": "msk-demidov-26",
+   "city": "msk",
+   "name": "Демидов, 26",
+   "developer": "Отрада",
+   "district": "Басманный (ЦАО)",
+   "address": "ул. Новая Басманная",
+   "classLabel": null,
+   "status": "soon",
+   "salesStart": "бронирование с сентября 2026",
+   "completion": "IV кв. 2029",
+   "description": "Пять корпусов высотой до 36 этажей на 233 квартиры от 43 м², потолки до 3,6 м, двухуровневый подземный паркинг на 143 места.",
+   "internalNote": "Открыто бронирование — проверить статус продаж.",
+   "sources": [
+    "https://www.novostroy-m.ru/analitika/starty_prodaj_sentyabr_2026",
+    "https://whitewill.ru/news/novye-proekty/starty-avgusta-i-sentyabrya-2026"
+   ],
+   "sourcePostUrl": null,
+   "publishedAt": null,
+   "images": [],
+   "imageSources": [],
+   "lat": 55.771,
+   "lng": 37.662,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "msk"
+  },
+  {
+   "id": "msk-letnaya-71",
+   "city": "msk",
+   "name": "Лётная, 71",
+   "developer": "ОМ Девелопмент",
+   "district": "Покровское-Стрешнево (СЗАО)",
+   "address": "Лётная ул., 71",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": "I полугодие 2027 (оценка отраслевых СМИ)",
+   "completion": null,
+   "description": "ОМ Девелопмент готовит две башни (21 и 38 этажей) на общем рыжем стилобате на месте лётного поля Тушинского аэродрома: 405 квартир от 29 до 197 м², подземный паркинг на 210 мест, коммерция в стилобате. Архитектура — бюро СПИЧ, облик согласован в сентябре 2026. Около 15 минут пешком до «Тушинской» (МЦД-2) и около 16 минут до «Спартака»; рядом Сходня, Москва-река и Кировская пойма. Цен и планировок пока нет; отраслевые СМИ ориентируют старт продаж на I полугодие 2027. Рядом у застройщика второй участок — Лётная, 98.",
+   "internalNote": "Обновлено 14.10.2026 по посту канала 569–575 (альбом). Рендеры оставлены чистые (propertyinsider), слайды поста с текстом не брали. Статус по-прежнему анонс.",
+   "sources": [
+    "https://t.me/Max_pro_flat/569",
+    "https://rnrf.ru/news/31828-start-etapa-zhilogo-kompleksa-om-development-na-letnoy/",
+    "https://rnrf.ru/news/32736-soglasovana-arhitekturnaya-koncepciya-zhk-na-letnoy-s-405-kvartirami/"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/569",
+   "publishedAt": "2026-10-13T11:50:31+00:00",
+   "images": [
+    "img/msk-letnaya-71/1.webp",
+    "img/msk-letnaya-71/2.webp",
+    "img/msk-letnaya-71/3.webp",
+    "img/msk-letnaya-71/4.webp"
+   ],
+   "imageSources": [
+    "https://t.me/propertyinsider/35978",
+    "https://t.me/propertyinsider/35978",
+    "https://t.me/propertyinsider/35978",
+    "https://t.me/propertyinsider/35978"
+   ],
+   "lat": 55.8242,
+   "lng": 37.4216,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": null,
+   "region": "msk"
+  },
+  {
+   "id": "msk-kod-savelovsky",
+   "city": "msk",
+   "name": "Код Савеловский",
+   "developer": "Новая Эра",
+   "district": "Бутырский (СВАО)",
+   "address": "Складочная ул., 1",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": "конец 2026 (ожидается)",
+   "completion": null,
+   "description": "Квартал более чем на 3 000 квартир на участке около 20 га у Савеловского вокзала: более 190 тыс. м² жилья, деловая и коммерческая инфраструктура.",
+   "internalNote": null,
+   "sources": [
+    "https://sosedi.life/news/zhk-kod-savelovskij/"
+   ],
+   "sourcePostUrl": null,
+   "publishedAt": null,
+   "images": [],
+   "imageSources": [],
+   "lat": 55.796,
+   "lng": 37.593,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "msk"
+  },
+  {
+   "id": "msk-loran",
+   "city": "msk",
+   "name": "Лоран",
+   "developer": "Stone",
+   "district": "Якиманка (ЦАО)",
+   "address": "Ленинский пр-т",
+   "classLabel": "элит",
+   "status": "soon",
+   "salesStart": null,
+   "completion": "I кв. 2029",
+   "description": "Дом на 31 квартиру от 95 до 543 м², потолки от 3,5 до 5 м, двухуровневый подземный паркинг на 50 мест.",
+   "internalNote": "Застройщик СЗ «ЛП Холдинг»: 51% Stone, 49% «Лесной Капитал». Проектная декларация опубликована — проверить, не начались ли продажи.",
+   "sources": [
+    "https://rnrf.ru/news/31845-anons-novogo-elitnogo-zhk-loran-na-leninskom-prospekte/",
+    "https://1kvartal.ru/realty/zhk-loran/"
+   ],
+   "sourcePostUrl": null,
+   "publishedAt": null,
+   "images": [
+    "img/msk-loran/1.webp"
+   ],
+   "imageSources": [
+    "https://cdn.1kvartal.ru/msk/novostrojki-moskva-73642001.jpg"
+   ],
+   "lat": 55.727,
+   "lng": 37.605,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "msk"
+  },
+  {
+   "id": "msk-olsufiev",
+   "city": "msk",
+   "name": "Олсуфьев",
+   "developer": "Грандор",
+   "district": "Хамовники (ЦАО)",
+   "address": "Олсуфьевский пер.",
+   "classLabel": "элит",
+   "status": "soon",
+   "salesStart": null,
+   "completion": "IV кв. 2029",
+   "description": "Семь корпусов на 58 квартир от 122 до 312 м², потолки 3,4–4,3 м, подземный паркинг на 93 места.",
+   "internalNote": "Объект наш.дом.рф 73795. Проверить статус продаж.",
+   "sources": [
+    "https://1kvartal.ru/realty/korpusa-1-7-v-zhk-olsufev/"
+   ],
+   "sourcePostUrl": null,
+   "publishedAt": null,
+   "images": [
+    "img/msk-olsufiev/1.webp"
+   ],
+   "imageSources": [
+    "https://cdn.1kvartal.ru/msk/novostrojki-moskva-73795001.jpg"
+   ],
+   "lat": 55.733,
+   "lng": 37.58,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "msk"
+  },
+  {
+   "id": "msk-kapelsky-5",
+   "city": "msk",
+   "name": "Капельский, 5",
+   "developer": null,
+   "district": "Мещанский (ЦАО)",
+   "address": "Капельский пер., 5",
+   "classLabel": "элит",
+   "status": "soon",
+   "salesStart": null,
+   "completion": "III кв. 2029",
+   "description": "Дом на 46 квартир от 54 до 338 м², потолки 3,71–4,03 м, подземный паркинг.",
+   "internalNote": "Застройщик — АО «СЗ Капельский, 5», бренд не найден. Объект наш.дом.рф 73687. Проверить статус продаж.",
+   "sources": [
+    "https://1kvartal.ru/realty/zhk-kapelskij-5/"
+   ],
+   "sourcePostUrl": null,
+   "publishedAt": null,
+   "images": [
+    "img/msk-kapelsky-5/1.webp"
+   ],
+   "imageSources": [
+    "https://cdn.1kvartal.ru/msk/novostrojki-moskva-73687001.jpg"
+   ],
+   "lat": 55.78,
+   "lng": 37.629,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "msk"
+  },
+  {
+   "id": "msk-vozdvizhenka-7",
+   "city": "msk",
+   "name": "Воздвиженка, 7/6",
+   "developer": "Группа ЛСР",
+   "district": "Арбат (ЦАО)",
+   "address": "ул. Воздвиженка, 7/6, стр. 6",
+   "classLabel": null,
+   "status": "announce",
+   "salesStart": null,
+   "completion": null,
+   "description": "Клубный дом около Музея архитектуры, в 200 м от «Арбатской». По ГПЗУ жилой корпус около 3,4 тыс. м², рассчитан примерно на 10 квартир.",
+   "internalNote": "Старая концепция бюро Vi реализовываться не будет, актуальных визуализаций нет.",
+   "sources": [
+    "https://dvizhenie.ru/media/2655/developer-lsr-postroit-zhk-ryadom-s-kremlem",
+    "https://elitnoe.ru/articles/8798-gruppa-lsr-postroit-elitnoe-zhilie-na-vozdvizhenke-ryadom-s-kremlem"
+   ],
+   "sourcePostUrl": null,
+   "publishedAt": null,
+   "images": [],
+   "imageSources": [],
+   "lat": 55.7522,
+   "lng": 37.607,
+   "coordPrecision": "approx",
+   "verified": false,
+   "class": "премиум",
+   "region": "msk"
+  },
+  {
+   "id": "mo-rublevskie-dvory",
+   "city": "msk",
+   "region": "mo",
+   "name": "Рублёвские дворы",
+   "developer": "Брусника",
+   "district": "Одинцовский г.о.",
+   "address": "село Лайково, у Красногорского шоссе",
+   "class": null,
+   "classLabel": null,
+   "status": "soon",
+   "salesStart": "скоро",
+   "completion": "III кв. 2028 (I очередь)",
+   "description": "Квартал из шести домов с секциями от 7 до 17 этажей: у каждого дома свой двор-сад, паркинг и зелёный буфер. Через квартал пройдёт пешеходный бульвар с водоёмом, событийной площадью и спортивным ядром; на Красногорском шоссе — двухуровневый МФЦ с фудкортом и спортклубом. Получено разрешение на строительство, скоро ожидается старт продаж.",
+   "internalNote": "Продажи не открыты (пост 10.10.2026); у Брусники открыта страница «Узнать первым». Посты 523–529 — один альбом. Завершение всего проекта — III кв. 2029. 14.10.2026: со слов Максима — получено РНС, скоро старт продаж.",
+   "sources": [
+    "https://t.me/Max_pro_flat/523",
+    "https://moskva.brusnika.ru/start/rublevskie-dvory",
+    "https://odin.ru/news/?id=86721"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/523",
+   "publishedAt": "2026-10-10T16:24:01+00:00",
+   "images": [
+    "img/mo-rublevskie-dvory/1.webp",
+    "img/mo-rublevskie-dvory/2.webp",
+    "img/mo-rublevskie-dvory/3.webp",
+    "img/mo-rublevskie-dvory/4.webp"
+   ],
+   "imageSources": [
+    "https://cdn.brusnika.ru/media/realty/presale_page_redesign/page/.jpg_8lsVWMY",
+    "https://cdn.brusnika.ru/media/realty/presale_page_redesign/page/.jpg_qpAPvCp",
+    "https://cdn.brusnika.ru/media/realty/presale_page_redesign/page/.jpg_njbhYaR",
+    "https://cdn.brusnika.ru/media/realty/presale_page_redesign/page/.jpg_JnG1bk4"
+   ],
+   "lat": 55.712,
+   "lng": 37.223,
+   "coordPrecision": "approx",
+   "verified": false
+  },
+  {
+   "id": "spb-bc-mebelnaya-1",
+   "city": "spb",
+   "region": "spb",
+   "name": "БЦ на Мебельной, 1",
+   "developer": "City Solutions",
+   "district": "Приморский",
+   "address": "Мебельная ул., 1, у м. «Старая Деревня»",
+   "class": null,
+   "classLabel": "бизнес-центр класса А",
+   "status": "announce",
+   "salesStart": "2029–2030 (выход на рынок, оценка)",
+   "completion": null,
+   "description": "Бизнес-центр класса А на месте «Мебель-Сити»: три башни на общем стилобате, 45,3 тыс. м², около 3 тыс. рабочих мест. Видовые террасы на 9-м этаже, зелёные террасы между башнями и смотровые площадки на крыше; подземный паркинг на 319 мест. Проект бюро «Слои Аркитектс Рус». КГА согласовал облик, разрешения на строительство пока нет. 250 м до метро.",
+   "internalNote": "Не жилой проект — бизнес-центр; добавлен по просьбе Максима. Заказчик — Александр Шестаков («Первая мебельная фабрика»).",
+   "sources": [
+    "https://t.me/Max_pro_flat/555"
+   ],
+   "sourcePostUrl": "https://t.me/Max_pro_flat/555",
+   "publishedAt": "2026-10-12T16:43:01+00:00",
+   "images": [
+    "img/spb-bc-mebelnaya-1/1.webp",
+    "img/spb-bc-mebelnaya-1/2.webp",
+    "img/spb-bc-mebelnaya-1/3.webp",
+    "img/spb-bc-mebelnaya-1/4.webp"
+   ],
+   "imageSources": [
+    "https://t.me/Max_pro_flat/555",
+    "https://t.me/Max_pro_flat/555",
+    "https://t.me/Max_pro_flat/555",
+    "https://t.me/Max_pro_flat/555"
+   ],
+   "lat": 59.989,
+   "lng": 30.256,
+   "coordPrecision": "approx",
+   "verified": false
+  }
+ ],
+ "regions": {
+  "spb": "Санкт-Петербург",
+  "lo": "Ленобласть",
+  "msk": "Москва",
+  "mo": "Подмосковье"
+ }
+}

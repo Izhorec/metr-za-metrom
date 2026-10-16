@@ -221,11 +221,11 @@
       "district": "Колпинский",
       "address": "Колпино, Адмиралтейская ул., уч. 22",
       "classLabel": null,
-      "status": "announce",
+      "status": "soon",
       "salesStart": null,
       "completion": null,
       "description": "Получено разрешение на строительство пятиэтажного дома на 105 квартир: 50 однокомнатных, 35 двухкомнатных и 20 трёхкомнатных, средняя площадь 63,5 м². Подземный паркинг на 79 мест.",
-      "internalNote": "Застройщик в посте не назван. Кадастр 78:37:1710203:2198. 16.10.2026: со слов Максима — получено РНС, статус анонс.",
+      "internalNote": "Застройщик в посте не назван. Кадастр 78:37:1710203:2198. 16.10.2026: со слов Максима — получено РНС, статус анонс. 16.10.2026: РНС получено → «Скоро старт» по правилу Максима.",
       "sources": [
         "https://t.me/Max_pro_flat/474"
       ],
@@ -312,11 +312,11 @@
       "district": "Выборгский (Шувалово)",
       "address": "Береговая ул., 2а, лит. Б",
       "classLabel": null,
-      "status": "announce",
+      "status": "soon",
       "salesStart": null,
       "completion": null,
       "description": "Получено разрешение на строительство 8-этажного дома на 244 квартиры, средняя площадь 43,2 м². 143 кладовых и подземный паркинг на 119 мест.",
-      "internalNote": null,
+      "internalNote": "16.10.2026: РНС получено → «Скоро старт» по правилу Максима.",
       "sources": [
         "https://t.me/Max_pro_flat/456"
       ],
@@ -338,26 +338,36 @@
     {
       "id": "spb-berggolts-20",
       "city": "spb",
-      "name": "Ольги Берггольц, 20",
+      "name": "Ольги Берггольц, 22",
       "developer": "Брусника",
       "district": "Невский",
-      "address": "угол ул. Ольги Берггольц и ул. Пинегина",
+      "address": "ул. Ольги Берггольц, 22 (угол ул. Пинегина)",
       "classLabel": null,
-      "status": "announce",
+      "status": "soon",
       "salesStart": null,
       "completion": null,
-      "description": "8-этажный дом с коммерцией на первых этажах и встроенным детским садом на 60 мест на участке 0,93 га у Палевского сада.",
-      "internalNote": null,
+      "description": "Получено разрешение на строительство. 8-этажный дом с коммерцией на первых этажах и встроенным детским садом на 60 мест на участке 0,93 га у Палевского сада.",
+      "internalNote": "16.10.2026: со слов Максима — адрес д. 22, получено РНС, рендеры с наш.дом.рф (объект 73541). 16.10.2026: статус «Скоро старт» по просьбе Максима.",
       "sources": [
         "https://t.me/Max_pro_flat/417"
       ],
       "sourcePostUrl": "https://t.me/Max_pro_flat/417",
       "publishedAt": "2026-05-25T13:44:37+00:00",
       "images": [
-        "img/spb-berggolts-20/1.webp"
+        "img/spb-berggolts-20/1.webp",
+        "img/spb-berggolts-20/2.webp",
+        "img/spb-berggolts-20/3.webp",
+        "img/spb-berggolts-20/4.webp",
+        "img/spb-berggolts-20/5.webp",
+        "img/spb-berggolts-20/6.webp"
       ],
       "imageSources": [
-        "https://cdn4.telesco.pe/file/Oaty1pjW999obxATYVDuFIfa7HGEaoeqHbiAl8wxgat5ECygkKCbYjaiHW37WXzaaZNhV2jj9_DDd5jOyAnCFUs4HFlC_9H90ZPcUtcKZUuEwn2wOHPJblIyNRsKk2nJeTIrOrMOqJ9rF2w5o-pD2VEpKkdeAZmExClv0A4FpDzG-QU-LKP53e-UGS6eLHlrqznYvlbOWkAKae6m5mzUcQpUWkxdo8oI2UrUubxsDPKgUDTZDbCEehTTchCuY9_jRwmahbExQMPMDOz87pK_3dzY7aLQ7l250p163cmiRLlS2_FkfnbDroGGIwGkL_FL1vtwWi-QPFl3cracbjV4FQ.jpg"
+        "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A81E519DE6B1F49F5B2F3F82ECB34D82C?type=png",
+        "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AC767FD2824CB4A23BF7368B6FBF00264?type=png",
+        "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A32D0D1D61B4040C2956964065EA41DCC?type=png",
+        "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A11C6208147D043B180CDBC8259FED9F0?type=png",
+        "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A8E985E238F4445DF83AA3F4859BB4FE0?type=png",
+        "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AD7536DD6D1A141B0B749FE8D208C6933?type=png"
       ],
       "lat": 59.8985,
       "lng": 30.427,

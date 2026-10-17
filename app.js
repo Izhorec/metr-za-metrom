@@ -17,6 +17,27 @@
     const rows = (pr.items || []).filter((i) => i && i.value).map((i) => `<dt>${esc(i.label)}</dt><dd>${esc(i.value)}</dd>`).join("");
     return `<section class="price"><div class="price__head">${pr.from ? `<span class="price__from">${esc(pr.from)}</span>` : ""}${pr.perM2 ? `<span class="price__m2">${esc(pr.perM2)}</span>` : ""}</div>${rows ? `<dl class="price__rows">${rows}</dl>` : ""}${pr.note ? `<div class="price__date">${esc(pr.note)}</div>` : ""}</section>`;
   }
+  /* ---------- «Старт продаж»: месяц на карте с даты saleSince ---------- */
+  const MONTHS_GEN = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+  // saleSince + 1 календарный месяц (31.01 → 28/29.02); null, если даты нет
+  function saleUntil(p) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(p.saleSince || "");
+    if (p.status !== "sale" || !m) return null;
+    const y = +m[1], mo = +m[2], d = +m[3];
+    const last = new Date(y, mo + 1, 0).getDate();
+    return new Date(y, mo, Math.min(d, last));
+  }
+  // Объект виден по дату saleUntil включительно, со следующего дня скрывается
+  function saleExpired(p) {
+    const u = saleUntil(p); if (!u) return false;
+    const now = new Date(); const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    return today > u;
+  }
+  function saleNotice(p) {
+    const u = saleUntil(p); if (!u) return "";
+    return `<div class="sale-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>На карте до ${u.getDate()} ${MONTHS_GEN[u.getMonth()]}.</b> Потом этот объект можно будет найти только в личных сообщениях</div></div>`;
+  }
+  const SALE_FOOTNOTE = "Объекты в статусе «Старт продаж» держатся на карте месяц, дальше — только в личных сообщениях";
   const state = { city: CFG.defaultCity, cls: "all", status: "all", q: "", view: "map", projects: [], current: null };
 
   /* ---------- Тема: Авто / Светлая / Тёмная ---------- */
@@ -110,7 +131,7 @@
           ${tagsHtml(p)}
           ${p.salesStart ? `<div class="meta">Старт: ${esc(p.salesStart)}</div>` : ""}
         </div>
-      </div>`).join("") : `<div class="empty">Ничего не найдено.<br>Измените фильтры.</div>`;
+      </div>`).join("") + (state.status !== "sale" && items.some((p) => p.status === "sale") ? `<div class="list-note"><i class="dot dot--sale"></i>${SALE_FOOTNOTE}</div>` : "") : `<div class="empty">Ничего не найдено.<br>Измените фильтры.</div>`;
     el.querySelectorAll(".item").forEach((c) => c.addEventListener("click", () => openSheet(state.projects.find((x) => x.id === c.dataset.id))));
   }
   function fitCity() {
@@ -133,6 +154,7 @@
         <h2>${esc(p.name)}</h2>
         <div class="dev">${esc(p.developer || "Застройщик не объявлен")}</div>
         ${tagsHtml(p)}
+        ${saleNotice(p)}
         <div class="facts">
           ${fact("Район", districtText(p))}${fact("Класс", classText(p))}
           ${fact("Старт продаж", p.salesStart)}${fact("Сдача", p.completion)}
@@ -191,16 +213,16 @@
     btns.forEach((b) => b.addEventListener("click", () => { btns.forEach((x) => x.classList.toggle("active", x === b)); haptic("light"); cb(b.dataset[attr]); }));
   }
   bind("#citySeg", "city", (c) => { state.city = c; closeSheet(); render(); fitCity(); });
-  bind("#statusChips", "status", (v) => { state.status = v; render(); });
+  bind("#statusChips", "status", (v) => { state.status = v; $("#saleHint").classList.toggle("hidden", v !== "sale"); render(); });
   bind("#statusChips", "class", (v) => { state.cls = v; render(); });
   bind("#viewSeg", "view", (v) => { state.view = v; $("#list").classList.toggle("hidden", v !== "list"); if (v === "map" && provider) provider.resize(); });
   $("#search").addEventListener("input", (e) => { state.q = e.target.value; render(); });
 
   fetch("data/projects.json", { cache: "no-cache" })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then((d) => { state.projects = (d.projects || []).filter((p) => STATUS_LABEL[p.status]); return mapReady; })
+    .then((d) => { state.projects = (d.projects || []).filter((p) => STATUS_LABEL[p.status] && !saleExpired(p)); return mapReady; })
     .then(() => { render(); fitCity(); })
     .catch((e) => { console.error("Не удалось загрузить projects.json", e); toast("Не удалось загрузить данные"); });
 
-  window.__app = { state, openSheet, closeSheet, handleLead, get provider() { return provider; } };
+  window.__app = { state, openSheet, closeSheet, handleLead, saleUntil, saleExpired, get provider() { return provider; } };
 })();

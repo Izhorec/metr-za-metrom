@@ -118,3 +118,14 @@ html.dark .mk span{background:#1A1D20}
 .price__rows dt{color:var(--muted)}.price__rows dd{margin:0;font-weight:600;text-align:right}
 .price__date{margin-top:8px;font-size:12px;color:var(--muted)}
 .price__date a{color:inherit}
+
+/* «Старт продаж»: плашка про месяц на карте и сноски */
+.sale-note{display:flex;gap:10px;align-items:flex-start;margin:12px 0 0;padding:10px 12px;border-radius:14px;
+  background:color-mix(in srgb,var(--st-sale) 10%,var(--surface));border:1px solid color-mix(in srgb,var(--st-sale) 28%,transparent);
+  color:var(--text);font-size:13px;line-height:1.45}
+.sale-note svg{flex:0 0 18px;width:18px;height:18px;margin-top:1px;color:var(--st-sale)}
+.sale-note b{font-weight:700;color:var(--st-sale)}
+html.dark .sale-note{background:color-mix(in srgb,var(--st-sale) 13%,var(--surface))}
+.hint,.list-note{display:flex;gap:7px;align-items:baseline;font-size:11.5px;line-height:1.4;color:var(--muted);padding:0 2px}
+.hint .dot,.list-note .dot{flex:0 0 7px;width:7px;height:7px;border-radius:50%;transform:translateY(-1px)}
+.list-note{padding:6px 6px 2px}

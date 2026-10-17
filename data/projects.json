@@ -1095,6 +1095,86 @@
       "lng": 37.5816,
       "coordPrecision": "approx",
       "verified": false
+    },
+    {
+      "id": "msk-pechatniki-415",
+      "city": "msk",
+      "region": "msk",
+      "name": "Башня 415 м в Печатниках",
+      "developer": null,
+      "district": "Печатники (ЮВАО)",
+      "address": "площадка «Печатники» ОЭЗ «Технополис Москва», у пересечения Шоссейной ул. и Шоссейного пр., рядом с Южным портом",
+      "class": null,
+      "classLabel": "деловой комплекс · предконцепция",
+      "status": "announce",
+      "salesStart": null,
+      "completion": null,
+      "description": "Предконцепция бюро Карена Сапричяна для площадки «Печатники» ОЭЗ «Технополис Москва»: четыре башни от 20 до 102 этажей, самая высокая — 415 м (выше башни «Восток» в «Федерации», 374 м). Общий пятиэтажный стилобат в форме кольца с парком на крыше, внутри конгрессно-выставочный и музейный центры и торговля. Больше 500 тыс. м². Заказчики проработки — «Технополис Москва», «Инфратех Концессии» и «Ростех». Пока это концепт бюро, официальных согласований нет. Около 800 м до «Текстильщиков».",
+      "internalNote": "Нежилой проект — добавлен по просьбе Максима («Нежилое тоже добавляй»). Застройщик в посте не назван (только заказчики проработки), поэтому developer=null. Рендеры — 6 из 7 слайдов поста 643 (без карты), текст обрезан; максимум, что отдаёт Telegram, 640 px по ширине, webp q92. Координаты приблизительно, у Шоссейной ул./Шоссейного пр.",
+      "sources": [
+        "https://t.me/Max_pro_flat/643"
+      ],
+      "sourcePostUrl": "https://t.me/Max_pro_flat/643",
+      "publishedAt": "2026-10-16T13:54:01+00:00",
+      "images": [
+        "img/msk-pechatniki-415/1.webp",
+        "img/msk-pechatniki-415/2.webp",
+        "img/msk-pechatniki-415/3.webp",
+        "img/msk-pechatniki-415/4.webp",
+        "img/msk-pechatniki-415/5.webp",
+        "img/msk-pechatniki-415/6.webp"
+      ],
+      "imageSources": [
+        "https://t.me/Max_pro_flat/643",
+        "https://t.me/Max_pro_flat/643",
+        "https://t.me/Max_pro_flat/643",
+        "https://t.me/Max_pro_flat/643",
+        "https://t.me/Max_pro_flat/643",
+        "https://t.me/Max_pro_flat/643"
+      ],
+      "lat": 55.7025,
+      "lng": 37.724,
+      "coordPrecision": "approx",
+      "verified": false
+    },
+    {
+      "id": "msk-kievsky-gruzovoy-dvor",
+      "city": "msk",
+      "region": "msk",
+      "name": "Деловой квартал на Киевском грузовом дворе",
+      "developer": "Новая Эра",
+      "district": "Дорогомилово (ЗАО)",
+      "address": "бывший Киевский грузовой двор, между Киевским вокзалом и Бережковской наб.",
+      "class": null,
+      "classLabel": "деловой квартал",
+      "status": "announce",
+      "salesStart": null,
+      "completion": null,
+      "description": "Деловой квартал на месте Киевского грузового двора, Москва согласовала его облик. Концепция бюро IND Амира Идиатулина. 8,46 га, три здания почти на 280 тыс. м²: офисный небоскрёб на 200 м и корпус-трапеция с гигантской аркой, через которую панорама Москвы видна из окна электрички. В проёме арки каскад открытых террас. Стеклянные фасады от пола до потолка с витражами, металлическими кассетами и ламелями. Внизу кафе, рестораны, сервисы, спорткластер и озеленённые зоны. Строить будут в три очереди. Около 5 минут пешком до «Киевской», до Сити около 10 минут на машине.",
+      "internalNote": "Нежилой проект — добавлен по просьбе Максима. «Новая Эра» — структура «РЖД-Недвижимости» (в карточке только бренд). Рендеры — 5 слайдов поста 655 (без карты и без дубля первого кадра), текст обрезан; 640 px по ширине — максимум из Telegram, webp q92. Координаты приблизительно, между вокзалом и Бережковской наб.",
+      "sources": [
+        "https://t.me/Max_pro_flat/655"
+      ],
+      "sourcePostUrl": "https://t.me/Max_pro_flat/655",
+      "publishedAt": "2026-10-17T06:42:01+00:00",
+      "images": [
+        "img/msk-kievsky-gruzovoy-dvor/1.webp",
+        "img/msk-kievsky-gruzovoy-dvor/2.webp",
+        "img/msk-kievsky-gruzovoy-dvor/3.webp",
+        "img/msk-kievsky-gruzovoy-dvor/4.webp",
+        "img/msk-kievsky-gruzovoy-dvor/5.webp"
+      ],
+      "imageSources": [
+        "https://t.me/Max_pro_flat/655",
+        "https://t.me/Max_pro_flat/655",
+        "https://t.me/Max_pro_flat/655",
+        "https://t.me/Max_pro_flat/655",
+        "https://t.me/Max_pro_flat/655"
+      ],
+      "lat": 55.7395,
+      "lng": 37.5615,
+      "coordPrecision": "approx",
+      "verified": false
     }
   ],
   "regions": {

@@ -22,6 +22,9 @@ window.APP_CONFIG = {
   // Задел под сервер заявок (не используется)
   leadEndpoint: "",
 
+  // Яндекс Метрика: номер счётчика (только цифры). null — счётчик выключен.
+  METRIKA_ID: 113674853,
+
   defaultCity: "spb",
   cities: {
     spb: { title: "Санкт-Петербург и Ленобласть", short: "СПб и ЛО", regions: ["spb", "lo"], center: [59.94, 30.31], zoom: 10 },

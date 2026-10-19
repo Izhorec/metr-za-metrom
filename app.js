@@ -74,6 +74,9 @@
   });
   if (mq) (mq.addEventListener ? mq.addEventListener("change", applyTheme) : mq.addListener(applyTheme));
 
+  /* ---------- Аналитика (analytics.js) ---------- */
+  function track(goal, params) { try { window.Analytics && window.Analytics.goal(goal, params); } catch (e) {} }
+
   /* ---------- Telegram ---------- */
   function haptic(t) { try { if (inTelegram) tg.HapticFeedback.impactOccurred(t || "light"); } catch (e) {} }
   if (tg) {
@@ -145,6 +148,8 @@
   function openSheet(p) {
     if (!p) return;
     state.current = p; haptic("light");
+    track("card_open", { id: p.id, name: p.name, city: p.city || state.city, status: p.status });
+    let swiped = false;
     const imgs = p.images || [];
     const gallery = imgs.length
       ? `<div class="gallery"><div class="slides">${imgs.map((u, i) => `<img src="${esc(u)}" alt="${esc(p.name)} — визуализация ${i + 1}" ${i ? 'loading="lazy"' : ""}>`).join("")}</div>${imgs.length > 1 ? `<div class="dots">${imgs.map((_, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div>` : ""}</div>`
@@ -168,6 +173,7 @@
     const slides = $("#sheetContent .slides");
     if (slides && imgs.length > 1) slides.addEventListener("scroll", () => {
       const i = Math.round(slides.scrollLeft / slides.clientWidth);
+      if (!swiped && i > 0) { swiped = true; track("render_swipe", { id: p.id }); }
       $("#sheetContent .dots").querySelectorAll("i").forEach((d, k) => d.classList.toggle("on", k === i));
     }, { passive: true });
     const cta = $("#ctaBtn"); if (cta) cta.addEventListener("click", () => handleLead(p));
@@ -193,6 +199,7 @@
   function openTg(url) { if (inTelegram) tg.openTelegramLink(url); else window.open(url, "_blank", "noopener"); }
   function handleLead(p) {
     haptic("medium");
+    track("lead_click", { id: p.id, name: p.name });
     const text = (CFG.leadTextTemplate || "Здравствуйте! Хочу расчёт по ЖК {name}").replace("{name}", p.name);
     if (CFG.leadMode === "manager" && CFG.managerTelegram) {
       openTg(`https://t.me/${CFG.managerTelegram}?text=${encodeURIComponent(text)}`);
@@ -212,11 +219,16 @@
     const btns = document.querySelectorAll(`${sel} [data-${attr}]`);
     btns.forEach((b) => b.addEventListener("click", () => { btns.forEach((x) => x.classList.toggle("active", x === b)); haptic("light"); cb(b.dataset[attr]); }));
   }
-  bind("#citySeg", "city", (c) => { state.city = c; closeSheet(); render(); fitCity(); });
-  bind("#statusChips", "status", (v) => { state.status = v; $("#saleHint").classList.toggle("hidden", v !== "sale"); render(); });
+  bind("#citySeg", "city", (c) => { track("city_switch", { city: c }); state.city = c; closeSheet(); render(); fitCity(); });
+  bind("#statusChips", "status", (v) => { track("filter_status", { status: v }); state.status = v; $("#saleHint").classList.toggle("hidden", v !== "sale"); render(); });
   bind("#statusChips", "class", (v) => { state.cls = v; render(); });
-  bind("#viewSeg", "view", (v) => { state.view = v; $("#list").classList.toggle("hidden", v !== "list"); if (v === "map" && provider) provider.resize(); });
-  $("#search").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+  bind("#viewSeg", "view", (v) => { if (v === "list") track("list_view"); state.view = v; $("#list").classList.toggle("hidden", v !== "list"); if (v === "map" && provider) provider.resize(); });
+  $("#search").addEventListener("input", (e) => {
+    state.q = e.target.value; render();
+    clearTimeout(searchT); const q = state.q.trim();
+    if (q) searchT = setTimeout(() => track("search", { q: q.slice(0, 50) }), 1200);
+  });
+  let searchT;
 
   fetch("data/projects.json", { cache: "no-cache" })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })

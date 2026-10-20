@@ -117,7 +117,7 @@
   const classText = (p) => p.classLabel ? (p.class && p.classLabel.toLowerCase().indexOf(p.class) === -1 ? `${p.class} · ${p.classLabel}` : p.classLabel) : p.class;
 
   function tagsHtml(p) {
-    return `<div class="tags"><span class="tag st">${esc(STATUS_LABEL[p.status] || "")}</span>${classText(p) ? `<span class="tag">${esc(classText(p))}</span>` : ""}${districtText(p) ? `<span class="tag">${esc(districtText(p))}</span>` : ""}</div>`;
+    return `<div class="tags"><span class="tag st st-${esc(p.status)}">${esc(STATUS_LABEL[p.status] || "")}</span>${classText(p) ? `<span class="tag">${esc(classText(p))}</span>` : ""}${districtText(p) ? `<span class="tag">${esc(districtText(p))}</span>` : ""}</div>`;
   }
 
   function render() {

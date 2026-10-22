@@ -22,7 +22,7 @@
       "salesStart": null,
       "completion": null,
       "description": "Камерный клубный дом на месте гаражей 1937 года с автосервисом на Петроградской стороне: светлый кирпич, арочные окна, балконы и мансарда в медных тонах, высота до 33 м. Градкомиссия в августе 2026 одобрила 3,2 тыс. м² квартир, подземный гараж и встроенные помещения; КГИОП ранее согласовал эскиз. Взамен застройщик отремонтирует и передаст городу помещение 317 м² на ул. Красного Курсанта под досуговый центр и отдаст две квартиры. Следующий шаг — разрешение на строительство. До «Чкаловской» около 15 минут пешком, рядом Малая Невка и Крестовский остров.",
-      "internalNote": "Пост 14.10.2026 (581–587). Застройщик в посте — ООО «Энергия», в карточке бренд «Энергия». Рендеры — кропы слайдов канала без текстовых зон. Адрес уточнён по nsp.ru (Гдовская, 4, лит. А).",
+      "internalNote": "Пост 14.10.2026 (581–587). Застройщик в посте — ООО «Энергия», в карточке бренд «Энергия». Рендеры — кропы слайдов канала без текстовых зон. Адрес уточнён по nsp.ru (Гдовская, 4, лит. А). 22.10.2026: рендеры пересобраны из исходников поста vk.ru/wall-92670111_12723 в родном разрешении (без апскейла), кадрированы по дому, lossless WebP.",
       "sources": [
         "https://t.me/Max_pro_flat/581",
         "https://nsp.ru/44934-nebolsoi-elitnyi-dom-postroyat-naprotiv-bc-triniti"
@@ -36,10 +36,10 @@
         "img/spb-gdovskaya-4/4.webp"
       ],
       "imageSources": [
-        "https://t.me/Max_pro_flat/581",
-        "https://t.me/Max_pro_flat/581",
-        "https://t.me/Max_pro_flat/581",
-        "https://t.me/Max_pro_flat/581"
+        "https://vk.ru/wall-92670111_12723",
+        "https://vk.ru/wall-92670111_12723",
+        "https://vk.ru/wall-92670111_12723",
+        "https://vk.ru/wall-92670111_12723"
       ],
       "lat": 59.9634,
       "lng": 30.2746,
@@ -87,7 +87,7 @@
       "salesStart": "октябрь 2026 (план)",
       "completion": "IV кв. 2029",
       "description": "Первый проект молодого девелопера «Геометрия» (основатель — Александр Кравцов, сооснователь Fizika Development). Около 350 квартир элит-класса (разрешение позволяло 477, но квартиры укрупнят), примерно 30,7 тыс. м² продаваемой жилой площади. Фактически это вторая очередь Neva Residence: первую очередь на соседнем участке ввели в 2023 году. Участок куплен у Группы ЛСР с готовой проектной документацией и разрешением на строительство; компания называет его одним из последних свободных участков на первой линии Невы. Выход на стройку и старт продаж — октябрь 2026, ввод — IV кв. 2029. Кадастровый номер участка 78:07:0315202:156.",
-      "internalNote": "Название проекта не объявлено. Рендеры вырезаны из слайдов поста 514 (без текста). Официальный сайт застройщика не проверялся.",
+      "internalNote": "Название проекта не объявлено. Рендеры вырезаны из слайдов поста 514 (без текста). 22.10.2026: рендеры заменены на актуальные с официального сайта geometria.group (оригиналы, без пережатия).",
       "sources": [
         "https://t.me/Max_pro_flat/514"
       ],
@@ -95,15 +95,11 @@
       "publishedAt": "2026-10-09T12:50:26+00:00",
       "images": [
         "img/spb-remeslennaya-17/1.webp",
-        "img/spb-remeslennaya-17/2.webp",
-        "img/spb-remeslennaya-17/3.webp",
-        "img/spb-remeslennaya-17/4.webp"
+        "img/spb-remeslennaya-17/2.webp"
       ],
       "imageSources": [
-        "https://t.me/Max_pro_flat/514",
-        "https://t.me/Max_pro_flat/514",
-        "https://t.me/Max_pro_flat/514",
-        "https://t.me/Max_pro_flat/514"
+        "https://geometria.group/images/desktop/projects/remeslennaya/01.webp",
+        "https://geometria.group/images/desktop/projects/remeslennaya/00.webp"
       ],
       "lat": 59.9585,
       "lng": 30.27,
@@ -225,7 +221,7 @@
       "salesStart": null,
       "completion": null,
       "description": "Получено разрешение на строительство пятиэтажного дома на 105 квартир: 50 однокомнатных, 35 двухкомнатных и 20 трёхкомнатных, средняя площадь 63,5 м². Подземный паркинг на 79 мест.",
-      "internalNote": "Застройщик в посте не назван. Кадастр 78:37:1710203:2198. 16.10.2026: со слов Максима — получено РНС, статус анонс. 16.10.2026: РНС получено → «Скоро старт» по правилу Максима.",
+      "internalNote": "Застройщик в посте не назван. Кадастр 78:37:1710203:2198. 16.10.2026: со слов Максима — получено РНС, статус анонс. 16.10.2026: РНС получено → «Скоро старт» по правилу Максима. 22.10.2026: кадры перекадрированы по дому (меньше неба), 3 кадра из слайдов поста 474 в 1080 px.",
       "sources": [
         "https://t.me/Max_pro_flat/474"
       ],
@@ -233,11 +229,13 @@
       "publishedAt": "2026-10-04T08:26:01+00:00",
       "images": [
         "img/spb-kolpino-admiralteyskaya/1.webp",
-        "img/spb-kolpino-admiralteyskaya/2.webp"
+        "img/spb-kolpino-admiralteyskaya/2.webp",
+        "img/spb-kolpino-admiralteyskaya/3.webp"
       ],
       "imageSources": [
-        "https://cdn4.telesco.pe/file/E_7BGjywGIS82WXEMg8R4k9jAwhCZYHQAA6TACPWWVhJoLHMiutfBSSN9M4vzWsI4VWZZhusTGtcSep88kYSF9m9IKldmd6n01ndb2FrWBgeM1XOruRdd0URRkIDwvZEAVy1ASEvraRvjApQ7PHQAqHuQjNQ3pmZFM0m-WXAQhb2uXM432UV_CHbIvwVP0aL0EV7050TJlB7536jbfZo7DCiszS4lZ7bbYV4QOpM5EO0zqzCjyrmJl_d1v6PJhh0BRq8arJESZVOXH6fGqowETdMBwrVgOKycZWhzunXXNFH9lE5MClMAsI1ZvE1jLpeQSLxnEoGiUqjNn0Osg9e0g.jpg",
-        "https://cdn4.telesco.pe/file/Zx6LCpQBjfj8RiYzsArD6lTOyRi-slPS90gdxmPQ4mgNhGlgR61nZ3MilBpwjJliFRtY-GurWD4x3Ja0tqavNVtS6dsCD3cjWFIa_0YtzlH95WZcnBt6QqA5wJ5oFs5ubs0EYwrXi4cwhUe_rtcJh-ht-p-1_IDs9SNs9vxb_n8eFXlGSbfVCWO9692Zam95LbJ_LrnOVyaOipciFtEEaSjdoY0AAqNBRPURAdlfeF2hYaCc9O10_8rDnBQBKSDRC3T_omNqYhCkNS2Z2WUKiFkZSJxM4AbDeBvUZUZ96zXgd05lijZ-xijURt1iAAfikg6yf_4XEHjJVmH_ZvZNuA.jpg"
+        "https://t.me/Max_pro_flat/474",
+        "https://t.me/Max_pro_flat/474",
+        "https://t.me/Max_pro_flat/474"
       ],
       "lat": 59.747,
       "lng": 30.58,

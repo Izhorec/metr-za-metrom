@@ -235,7 +235,7 @@
   });
   let searchT;
 
-  fetch("data/projects.json", { cache: "no-cache" })
+  fetch("data/projects.json?v=" + Date.now(), { cache: "no-cache" })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((d) => { state.projects = (d.projects || []).filter((p) => STATUS_LABEL[p.status] && !saleExpired(p)); return mapReady; })
     .then(() => { render(); fitCity(); if (window.Follow) window.Follow.sync(); })

@@ -46,7 +46,6 @@ window.Follow = (function () {
     return `<section class="follow on" data-id="${esc(p.id)}">
       <div class="follow__ok">${CHECK}<div><b>Вы следите за проектом</b><span>${sub}</span></div></div>
       <div class="follow__row">${phone}<button class="link muted" data-act="unfollow">Не следить</button></div>
-      <p class="follow__privacy">Мы видим только ваше имя и @username в Telegram. Номер телефона не нужен. Отписаться можно здесь в один тап или командой /stop в боте.</p>
     </section>`;
   }
 

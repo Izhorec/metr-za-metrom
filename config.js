@@ -25,6 +25,13 @@ window.APP_CONFIG = {
   // Яндекс Метрика: номер счётчика (только цифры). null — счётчик выключен.
   METRIKA_ID: 113674853,
 
+  // ---------------- «ХОЧУ ОТСЛЕЖИВАТЬ» ----------------
+  // Cloudflare Worker с подписками (папка worker/). Пусто — запасной режим: чат с Максимом.
+  followEndpoint: "https://metr-follow.metr-za-metrom.workers.dev",
+  followFallbackText: "Здравствуйте! Хочу следить за проектом «{name}». Напишите, пожалуйста, когда появятся новости",
+  // Ссылка «Открыть в Telegram» (?startapp=) для браузера
+  startAppLink: "https://t.me/Metr_design_bot?startapp=",
+
   defaultCity: "spb",
   cities: {
     spb: { title: "Санкт-Петербург и Ленобласть", short: "СПб и ЛО", regions: ["spb", "lo"], center: [59.94, 30.31], zoom: 10 },

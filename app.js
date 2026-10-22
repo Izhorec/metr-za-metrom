@@ -84,7 +84,7 @@
     if (inTelegram) {
       tg.onEvent("themeChanged", applyTheme);
       tg.BackButton.onClick(closeSheet);
-      tg.MainButton.onClick(() => state.current && handleLead(state.current));
+      tg.MainButton.onClick(() => state.current && !canFollow(state.current) && handleLead(state.current));
     }
   }
 
@@ -144,6 +144,8 @@
   }
 
   /* ---------- Карточка ---------- */
+  // «Хочу отслеживать» — только для «Анонс» и «Скоро старт»; у «Старт продаж» остаётся «Хочу расчёт»
+  const canFollow = (p) => !!window.Follow && p.status !== "sale";
   const fact = (k, v, wide) => `<div class="fact${wide ? " wide" : ""}"><div class="k">${k}</div><div class="v">${esc(v || "—")}</div></div>`;
   function openSheet(p) {
     if (!p) return;
@@ -167,7 +169,7 @@
         </div>
         ${priceBlock(p)}
         <p class="desc">${esc(p.description || "")}</p>
-        ${inTelegram ? "" : `<button class="cta" id="ctaBtn">Хочу расчёт</button>`}
+        ${canFollow(p) ? window.Follow.html(p) : (inTelegram ? "" : `<button class="cta" id="ctaBtn">Хочу расчёт</button>`)}
         <button class="ghost" id="closeBtn">Закрыть</button>
       </div>`;
     const slides = $("#sheetContent .slides");
@@ -177,6 +179,7 @@
       $("#sheetContent .dots").querySelectorAll("i").forEach((d, k) => d.classList.toggle("on", k === i));
     }, { passive: true });
     const cta = $("#ctaBtn"); if (cta) cta.addEventListener("click", () => handleLead(p));
+    if (canFollow(p)) window.Follow.bind(p);
     $("#closeBtn").addEventListener("click", closeSheet);
     $("#sheet").scrollTop = 0;
     $("#sheet").classList.add("open"); $("#sheet").setAttribute("aria-hidden", "false");
@@ -184,7 +187,8 @@
     if (inTelegram) {
       const accent = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim();
       tg.BackButton.show();
-      tg.MainButton.setParams({ text: "Хочу расчёт", is_visible: true, is_active: true, color: accent });
+      if (canFollow(p)) tg.MainButton.hide();
+      else tg.MainButton.setParams({ text: "Хочу расчёт", is_visible: true, is_active: true, color: accent });
     }
   }
   function closeSheet() {
@@ -212,6 +216,7 @@
     toast("Заявка принята (демо-режим)");
   }
   let tt;
+  window.__toast = (m) => toast(m);
   function toast(m) { const t = $("#toast"); t.textContent = m; t.classList.add("show"); clearTimeout(tt); tt = setTimeout(() => t.classList.remove("show"), 2400); }
 
   /* ---------- Управление ---------- */
@@ -233,7 +238,7 @@
   fetch("data/projects.json", { cache: "no-cache" })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((d) => { state.projects = (d.projects || []).filter((p) => STATUS_LABEL[p.status] && !saleExpired(p)); return mapReady; })
-    .then(() => { render(); fitCity(); })
+    .then(() => { render(); fitCity(); if (window.Follow) window.Follow.sync(); })
     .catch((e) => { console.error("Не удалось загрузить projects.json", e); toast("Не удалось загрузить данные"); });
 
   window.__app = { state, openSheet, closeSheet, handleLead, saleUntil, saleExpired, get provider() { return provider; } };

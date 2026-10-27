@@ -1967,6 +1967,33 @@
       "lng": 37.6745,
       "coordPrecision": "approx",
       "verified": false
+    },
+    {
+      "id": "spb-pik-malyy-ps-4",
+      "city": "spb",
+      "region": "spb",
+      "name": "ПИК на Малом П.С., 4",
+      "developer": "ПИК",
+      "district": "Петроградский",
+      "address": "Малый пр. П.С., 4 (участок завода «Навигатор»)",
+      "class": null,
+      "classLabel": null,
+      "status": "announce",
+      "salesStart": null,
+      "completion": null,
+      "description": "Жилой проект ПИК на месте корпусов завода «Навигатор» на Петроградской стороне. Участок принадлежит структуре ПИК, на нём возобновили демонтаж. По оценке, здесь можно построить около 12 тыс. м² жилья. Сам проект ПИК пока не показывал. Градозащитники подали заявку в КГИОП на статус памятника для оставшихся зданий — это может сдвинуть сроки.",
+      "internalNote": "Пост 949 (27.10.2026, альбом 949–955). Рендеров нет — в посте фото завода/сноса, images []. Координаты — Nominatim «Малый пр. П.С., 4» (здание industrial), приблизительно. Добавлен по просьбе Максима 27.10.",
+      "sources": [
+        "https://t.me/Max_pro_flat/949"
+      ],
+      "sourcePostUrl": "https://t.me/Max_pro_flat/949",
+      "publishedAt": "2026-10-27T06:25:46+00:00",
+      "images": [],
+      "imageSources": [],
+      "lat": 59.9545,
+      "lng": 30.2901,
+      "coordPrecision": "approx",
+      "verified": false
     }
   ],
   "regions": {

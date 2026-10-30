@@ -2278,6 +2278,42 @@
       ],
       "lat": 55.7866,
       "lng": 37.6951
+    },
+    {
+      "classLabel": "концепция",
+      "salesStart": null,
+      "completion": null,
+      "verified": false,
+      "coordPrecision": "approx",
+      "id": "msk-khitrovka-tower",
+      "city": "msk",
+      "region": "msk",
+      "name": "«Закрученная» башня на Хитровке",
+      "developer": "«Снегири»",
+      "district": "Таганский",
+      "address": "Подколокольный пер., рядом с Хитровской площадью",
+      "class": null,
+      "status": "announce",
+      "description": "Концепция архитектурного бюро Асадова — 14-этажный офисный комплекс в Подколокольном переулке, рядом с Хитровской площадью. Башня собрана из сдвинутых относительно друг друга плит-этажей: с одной стороны этажи спускаются уступами, с другой нависают консолями, поэтому силуэт выглядит слегка «закрученным». Заказчик — компания «Снегири», которой принадлежит участок. Сейчас там стоит четырёхэтажное офисное здание 1860 года, полностью перестроенное в 1990-е. Пока это концепция: одобрит ли её город и будет ли здесь что-то строиться, неизвестно.",
+      "internalNote": "Пост 1030 (29.10.2026). Добавлено по просьбе Максима 30.10.2026. Автор — бюро Асадова, заказчик «Снегири» (А. Чигиринский) — в developer указан заказчик. Рендеры бюро Асадова (фото: архитектурное бюро Асадова) из публикации moskvichmag.ru, оригиналы без пересжатия. Координаты — здание Подколокольный пер., 10А/2 по Nominatim; номер участка в посте не указан. ВНИМАНИЕ: KP.ru 23.10.2026 (Ефимов) — город согласовал на участке 10А/2/1 другой проект: 7 этажей, ~6,8 тыс. м², биоморфная архитектура.",
+      "sources": [
+        "https://t.me/Max_pro_flat/1030",
+        "https://moskvichmag.ru/gorod/arhitekturnoe-byuro-asadova-pokazalo-proekt-14-etazhnoj-zakruchennoj-bashni-dlya-hitrovki/"
+      ],
+      "sourcePostUrl": "https://t.me/Max_pro_flat/1030",
+      "publishedAt": "2026-10-29T14:32:01+00:00",
+      "images": [
+        "img/msk-khitrovka-tower/1.jpg",
+        "img/msk-khitrovka-tower/2.jpg",
+        "img/msk-khitrovka-tower/3.jpg"
+      ],
+      "imageSources": [
+        "https://storage.yandexcloud.net/moskvichmag/uploads/2026/10/2026-10-16-18.59.52.jpg",
+        "https://storage.yandexcloud.net/moskvichmag/uploads/2026/10/podkol18.jpg",
+        "https://storage.yandexcloud.net/moskvichmag/uploads/2026/10/podkol1.jpg"
+      ],
+      "lat": 55.7526,
+      "lng": 37.6423
     }
   ],
   "regions": {

@@ -126,8 +126,12 @@
       ],
       "sourcePostUrl": "https://t.me/Max_pro_flat/497",
       "publishedAt": "2026-10-07T16:40:36+00:00",
-      "images": [],
-      "imageSources": [],
+      "images": [
+        "img/spb-9-sovetskaya-17/1.jpg"
+      ],
+      "imageSources": [
+        "https://mamoshin.ru (АМ_Мамошина_Петербург_9-Советская-14.jpg)"
+      ],
       "lat": 59.9387,
       "lng": 30.3722,
       "coordPrecision": "approx",
@@ -157,11 +161,17 @@
       "sourcePostUrl": "https://t.me/Max_pro_flat/488",
       "publishedAt": "2026-10-06T12:05:29+00:00",
       "images": [
+        "img/spb-kollegiya/4.jpg",
+        "img/spb-kollegiya/5.png",
+        "img/spb-kollegiya/6.jpg",
         "img/spb-kollegiya/1.webp",
         "img/spb-kollegiya/2.webp",
         "img/spb-kollegiya/3.webp"
       ],
       "imageSources": [
+        "https://storage.yandexcloud.net/spb-media-dev/media/p/p/g/fdde0029bceed2c3c8b2b02f31ef9b821d0e4292.jpg",
+        "https://storage.yandexcloud.net/spb-media-dev/media/p/fc/image/689877b5d979ea150ed006466a56bed74fb3904c.png",
+        "https://storage.yandexcloud.net/spb-media-dev/media/p/plb/render/f96489a07b4a24f35db0e0ccfc07a446b486da19.jpg",
         "https://78.ru/news/2026-04-03/na-prospekte-toreza-odobren-proekt-novogo-zhilogo-doma",
         "https://78.ru/news/2026-04-03/na-prospekte-toreza-odobren-proekt-novogo-zhilogo-doma",
         "https://78.ru/news/2026-04-03/na-prospekte-toreza-odobren-proekt-novogo-zhilogo-doma"
@@ -613,9 +623,11 @@
       "sourcePostUrl": "https://t.me/Max_pro_flat/956",
       "publishedAt": "2026-10-05T07:15:18+00:00",
       "images": [
+        "img/msk-etalon-novocheremushkinskaya/2.webp",
         "img/msk-etalon-novocheremushkinskaya/1.png"
       ],
       "imageSources": [
+        "https://etalongroup.ru/upload/kelnik.adminpage/be5/uhff9hvb7q1r03k63ercaa6q1osiejxm/photo_2026_09_18_17_34_16.webp",
         "https://etalongroup.ru/msk/object/novocheryemushkinskaya-25/"
       ],
       "lat": 55.6868,
@@ -778,8 +790,16 @@
       ],
       "sourcePostUrl": null,
       "publishedAt": null,
-      "images": [],
-      "imageSources": [],
+      "images": [
+        "img/msk-demidov-26/1.jpg",
+        "img/msk-demidov-26/2.jpg",
+        "img/msk-demidov-26/3.jpg"
+      ],
+      "imageSources": [
+        "https://demidov26.ru (галерея glr_00040-s)",
+        "https://demidov26.ru (галерея glr_00003-s)",
+        "https://demidov26.ru (галерея glr_00005-s)"
+      ],
       "lat": 55.771,
       "lng": 37.662,
       "coordPrecision": "approx",
@@ -844,8 +864,12 @@
       ],
       "sourcePostUrl": null,
       "publishedAt": null,
-      "images": [],
-      "imageSources": [],
+      "images": [
+        "img/msk-kod-savelovsky/1.png"
+      ],
+      "imageSources": [
+        "https://n-era.com (превью e329d179….png, storage.yandexcloud.net/rzd-prod)"
+      ],
       "lat": 55.796,
       "lng": 37.593,
       "coordPrecision": "approx",
@@ -967,8 +991,12 @@
       ],
       "sourcePostUrl": null,
       "publishedAt": null,
-      "images": [],
-      "imageSources": [],
+      "images": [
+        "img/msk-vozdvizhenka-7/1.jpg"
+      ],
+      "imageSources": [
+        "https://moskvichmag.ru (lsr11.jpg, визуализация: Группа ЛСР)"
+      ],
       "lat": 55.7522,
       "lng": 37.607,
       "coordPrecision": "approx",
@@ -1073,6 +1101,8 @@
       "sourcePostUrl": "https://t.me/Max_pro_flat/631",
       "publishedAt": "2026-10-16T06:52:01+00:00",
       "images": [
+        "img/lo-novoselye-alen/6.jpg",
+        "img/lo-novoselye-alen/7.jpg",
         "img/lo-novoselye-alen/1.webp",
         "img/lo-novoselye-alen/2.webp",
         "img/lo-novoselye-alen/3.webp",
@@ -1080,6 +1110,8 @@
         "img/lo-novoselye-alen/5.webp"
       ],
       "imageSources": [
+        "https://a-len.ru/upload/iblock/0bb/1ek9zmv1w2e8g3hhojcquxwu4wbtu4rx.jpg",
+        "https://a-len.ru/upload/iblock/7a3/fm31ttzyxj2eu0hphy3fo501ex07ixfn.jpg",
         "https://t.me/Max_pro_flat/631",
         "https://t.me/Max_pro_flat/631",
         "https://t.me/Max_pro_flat/631",
@@ -1192,6 +1224,7 @@
       "sourcePostUrl": "https://t.me/Max_pro_flat/655",
       "publishedAt": "2026-10-17T06:42:01+00:00",
       "images": [
+        "img/msk-kievsky-gruzovoy-dvor/6.jpg",
         "img/msk-kievsky-gruzovoy-dvor/1.webp",
         "img/msk-kievsky-gruzovoy-dvor/2.webp",
         "img/msk-kievsky-gruzovoy-dvor/3.webp",
@@ -1199,6 +1232,7 @@
         "img/msk-kievsky-gruzovoy-dvor/5.webp"
       ],
       "imageSources": [
+        "https://storage.yandexcloud.net/rzd-prod/media/p/p/psi/adf783d41cd98a14f5a21aa22ed59fab73a3f8a8.jpeg",
         "https://t.me/Max_pro_flat/655",
         "https://t.me/Max_pro_flat/655",
         "https://t.me/Max_pro_flat/655",
@@ -1995,9 +2029,11 @@
       "sourcePostUrl": "https://t.me/Max_pro_flat/942",
       "publishedAt": "2026-10-26T16:26:05+00:00",
       "images": [
+        "img/msk-skala-stenoy/2.png",
         "img/msk-skala-stenoy/1.png"
       ],
       "imageSources": [
+        "https://static.tildacdn.com/tild6433-6663-4362-b061-633139663139/Scala_Fon.png",
         "https://scala.moscow/"
       ],
       "lat": 55.7804,

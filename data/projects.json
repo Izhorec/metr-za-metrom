@@ -759,9 +759,13 @@
       "sourcePostUrl": null,
       "publishedAt": null,
       "images": [
+        "img/msk-dom-kino/kw1.jpg",
+        "img/msk-dom-kino/kw2.jpg",
         "img/msk-dom-kino/1.webp"
       ],
       "imageSources": [
+        "https://www.kleinewelt.ru/upload/iblock/0c9/qvae0u6bf1s415hlxc6lb4s0jkydb66x.jpg",
+        "https://www.kleinewelt.ru/upload/iblock/02b/u9b8g4p0lm58fw6ksdfb3z1t50xrr7hv.jpg",
         "https://anwin.ru/upload/resize_cache/iblock/c68/1920_1920_1/ym1um7w3jmt611vnmzz3m9x7do36yak5.webp"
       ],
       "lat": 55.7712,
@@ -960,9 +964,11 @@
       "sourcePostUrl": null,
       "publishedAt": null,
       "images": [
+        "img/msk-kapelsky-5/k1.webp",
         "img/msk-kapelsky-5/1.webp"
       ],
       "imageSources": [
+        "https://kapelsky5.ru/upload/iblock/a67/5r2x3rac8k30m1qkbta7fxa6aytki3fh.webp",
         "https://cdn.1kvartal.ru/msk/novostrojki-moskva-73687001.jpg"
       ],
       "lat": 55.78,

@@ -2812,6 +2812,110 @@
       "lng": 37.6369,
       "coordPrecision": "approx",
       "verified": false
+    },
+    {
+      "id": "spb-zaozernaya-1b",
+      "city": "spb",
+      "region": "spb",
+      "name": "Дом на Заозёрной у Обводного",
+      "developer": null,
+      "district": "Московский район, у Обводного канала",
+      "address": "Заозёрная ул., 1, лит. Б",
+      "class": null,
+      "classLabel": null,
+      "status": "announce",
+      "salesStart": null,
+      "completion": null,
+      "description": "На Заозёрной улице, к югу от набережной Обводного канала, 94, готовят новый жилой дом на участке 0,2 га. Проект «АСП-Структуры» одобрили летом 2024 года: 8 этажей, около 31 м по высшей точке, классический трёхчастный фасад в тон соседним домам и подземная стоянка. Дом встанет на месте флигеля газового завода 1838 года, который КГИОП памятником не признал. Кто будет строить дом, пока неясно.",
+      "internalNote": "Пост 1183 (02.11.2026, альбом 1183–1189). Проект заказывало АО «Ойкумена» (СЗ «Заозерная»), юрлица в карточку не выносим; застройщик в посте не назван — в developer указан автор проекта. Рядом ФСК согласовала дом со школой (Заозёрная, 1). Рендер — проект ООО «АСП-структура» из публикации Канонера (март 2024). Координаты приблизительные (Nominatim, Заозёрная, 1).",
+      "sources": [
+        "https://t.me/Max_pro_flat/1183",
+        "https://kanoner.com/2024/03/04/180888/"
+      ],
+      "sourcePostUrl": "https://t.me/Max_pro_flat/1183",
+      "publishedAt": "2026-11-02T14:15:35+00:00",
+      "images": [
+        "img/spb-zaozernaya-1b/1.jpg"
+      ],
+      "imageSources": [
+        "https://kanoner.com/pics/2024/03/zaozernaja-ulyca-1-lytera-b-proekt-zhyloho-doma.jpg"
+      ],
+      "lat": 59.9073,
+      "lng": 30.3224,
+      "coordPrecision": "approx",
+      "verified": false
+    },
+    {
+      "id": "msk-sminex-bernikovskaya-12",
+      "city": "msk",
+      "region": "msk",
+      "name": "Клубные дома на Берниковской набережной",
+      "developer": "Sminex",
+      "district": "Таганский",
+      "address": "Берниковская наб., 12",
+      "class": null,
+      "classLabel": null,
+      "status": "announce",
+      "salesStart": null,
+      "completion": null,
+      "description": "Sminex построит два клубных дома на Берниковской набережной, 12, у Яузы, внутри Садового кольца, на месте школы 1936 года, которая пустует с 2012 года. Участок девелопер купил у MR в марте. Два корпуса от 7 до 13 этажей: длинный дом вдоль набережной и башня в глубине участка, около 23 тыс. м², из них 13 тыс. м² квартир. Наверху пентхаусы с террасами и дровяными каминами, внутри приватный двор-парк, на первых этажах магазины и кафе. Мозаичные панно из цветного стекла на участке обещают отреставрировать. Рендеры показывают концепцию бюро «80/88», и пока неясно, будет ли построена именно она.",
+      "internalNote": "Пост 1190 (02.11.2026, альбом 1190–1196). Рендеры — концепция бюро «80/88» с сайта ab8088.ru (Sminex может её заменить). Координаты по Nominatim (Берниковская наб., 12с1).",
+      "sources": [
+        "https://t.me/Max_pro_flat/1190",
+        "https://ab8088.ru/rc-bernikovskaya-naberejnaya"
+      ],
+      "sourcePostUrl": "https://t.me/Max_pro_flat/1190",
+      "publishedAt": "2026-11-02T16:47:01+00:00",
+      "images": [
+        "img/msk-sminex-bernikovskaya-12/1.jpg",
+        "img/msk-sminex-bernikovskaya-12/2.jpg",
+        "img/msk-sminex-bernikovskaya-12/3.jpg",
+        "img/msk-sminex-bernikovskaya-12/4.jpg"
+      ],
+      "imageSources": [
+        "https://static.tildacdn.com/tild6436-6435-4432-b561-313565336339/_3_2.jpg",
+        "https://static.tildacdn.com/tild6435-3565-4133-b236-656363616566/_5.jpg",
+        "https://static.tildacdn.com/tild6532-6138-4538-b162-613337656636/_8.jpg",
+        "https://static.tildacdn.com/tild6538-6365-4130-b665-326162323333/_6.jpg"
+      ],
+      "lat": 55.7488,
+      "lng": 37.6514,
+      "coordPrecision": "exact",
+      "verified": false
+    },
+    {
+      "id": "spb-gamma-hotel-2",
+      "city": "spb",
+      "region": "spb",
+      "name": "Отель Gamma — второй корпус",
+      "developer": "Gamma",
+      "district": "Адмиралтейский район, у «Балтийской»",
+      "address": "наб. Обводного канала, 130",
+      "class": null,
+      "classLabel": null,
+      "status": "announce",
+      "salesStart": null,
+      "completion": null,
+      "description": "У бутик-отеля Gamma на Обводном канале появится второй корпус: КГА согласовал облик новой гостиницы по проекту бюро «МС-А». Корпус встанет на месте открытой автостоянки со стороны улицы Розенштейна: примерно 5 этажей и 23 м высоты, участок 0,44 га. Два блока под прямым углом вместе со старым зданием образуют полузакрытый двор. На первом этаже лобби, кафе и конференц-зал, наверху спа, под землёй парковка. Фасады из кирпича в духе промышленной застройки Обводного, с архитектурной подсветкой. Сама Gamma открылась в 2018 году: 48 номеров в бывшем заводском корпусе. До «Балтийской» пара минут пешком. Разрешения на строительство пока нет.",
+      "internalNote": "Пост 1197 (03.11.2026, альбом 1197–1203). Заказчик ООО «Петроинструмент» (юрлицо не выносим, в developer — бренд отеля Gamma). Рендеры КГА (через dp.ru, 930×525). Координаты по Nominatim (наб. Обводного, 130).",
+      "sources": [
+        "https://t.me/Max_pro_flat/1197",
+        "https://www.dp.ru/a/2026/10/22/v-peterburge-soglasovali-oblik"
+      ],
+      "sourcePostUrl": "https://t.me/Max_pro_flat/1197",
+      "publishedAt": "2026-11-03T06:49:01+00:00",
+      "images": [
+        "img/spb-gamma-hotel-2/1.jpg",
+        "img/spb-gamma-hotel-2/2.jpg"
+      ],
+      "imageSources": [
+        "https://cdn.dp.ru/images/article/2026/10/22/6dea1b0a-aa50-486e-ada5-44e131212791.jpg",
+        "https://cdn.dp.ru/images/article/2026/10/22/f86b52ba-df41-4d16-8cb6-b04bb1fb2015.jpg"
+      ],
+      "lat": 59.9083,
+      "lng": 30.292,
+      "coordPrecision": "exact",
+      "verified": false
     }
   ],
   "regions": {

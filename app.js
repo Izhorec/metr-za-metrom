@@ -235,10 +235,56 @@
   });
   let searchT;
 
+  /* ---------- Ссылка на проект: ?p=, #p=, Telegram start_param ---------- */
+  function deepLinkId() {
+    try {
+      const q = new URLSearchParams(location.search);
+      let id = q.get("p") || q.get("project");
+      if (!id && location.hash) {
+        const raw = location.hash.replace(/^#/, "");
+        const hq = new URLSearchParams(raw);
+        id = hq.get("p") || hq.get("project");
+        if (!id) {
+          const m = /^p[=-](.+)$/i.exec(raw);
+          if (m) id = m[1];
+        }
+      }
+      if (!id && tg && tg.initDataUnsafe && tg.initDataUnsafe.start_param) {
+        id = String(tg.initDataUnsafe.start_param);
+      }
+      if (!id) return "";
+      id = decodeURIComponent(id).trim();
+      if (/^p-/i.test(id)) id = id.slice(2);
+      return id;
+    } catch (err) { return ""; }
+  }
+  function cityOf(p) {
+    if (p.city && CFG.cities[p.city]) return p.city;
+    const ids = Object.keys(CFG.cities);
+    for (let i = 0; i < ids.length; i++) {
+      if ((CFG.cities[ids[i]].regions || []).includes(p.region)) return ids[i];
+    }
+    return state.city;
+  }
+  function openDeepLink() {
+    const id = deepLinkId();
+    if (!id) return;
+    const proj = state.projects.find((x) => x.id === id);
+    if (!proj) return;
+    const city = cityOf(proj);
+    if (city !== state.city) {
+      state.city = city;
+      document.querySelectorAll("#citySeg [data-city]").forEach((b) => b.classList.toggle("active", b.dataset.city === state.city));
+    }
+    render();
+    if (provider && typeof proj.lat === "number") provider.fit([[proj.lat, proj.lng]], CFG.cities[state.city]);
+    openSheet(proj);
+  }
+
   fetch("data/projects.json?v=" + Date.now(), { cache: "no-cache" })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((d) => { state.projects = (d.projects || []).filter((p) => STATUS_LABEL[p.status] && !saleExpired(p)); return mapReady; })
-    .then(() => { render(); fitCity(); if (window.Follow) window.Follow.sync(); })
+    .then(() => { render(); fitCity(); if (window.Follow) window.Follow.sync(); openDeepLink(); })
     .catch((e) => { console.error("Не удалось загрузить projects.json", e); toast("Не удалось загрузить данные"); });
 
   window.__app = { state, openSheet, closeSheet, handleLead, saleUntil, saleExpired, get provider() { return provider; } };

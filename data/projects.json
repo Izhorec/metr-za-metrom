@@ -3009,11 +3009,11 @@
       "address": "ул. Тимура Сиразетдинова, 3-е Парголово",
       "class": "комфорт",
       "classLabel": "комфорт",
-      "status": "soon",
-      "salesStart": null,
-      "completion": "2029 (заявленный; возможен сдвиг к 2030)",
-      "description": "Один дом на 7 секций комфорт-класса на ул. Тимура Сиразетдинова в 3-м Парголово; участок раньше был у ЦДС. 16–17 этажей, 978 квартир от студий до евро-4 площадью 22–75 м²; на первых этажах коммерция больше 2 тыс. м², пристроенный детский сад на 110 мест и отдельный паркинг на 456 машино-мест. Рядом Шуваловский парк, Орловский карьер и Суздальские озёра; до станции Парголово около 1,4 км. Сдачу заявляют на 2029 год (срок может сдвинуться ближе к 2030). Продажи пока не открыты. Получено разрешение на строительство.",
-      "internalNote": "Пост 1272 (04.11.2026, альбом 1272–1278). На сайте застройщика проект также как «Кронунг-Парголово» (kronung.group/kronung-pargolovo). РНС уже получено — статус soon. Рендеры — официальные webp с kronung.group (без пережатия); слайды поста с текстом не брали. Координаты — ул. Тимура Сиразетдинова (Nominatim).",
+      "status": "sale",
+      "salesStart": "продажи с 11 ноября 2026",
+      "completion": "1 кв. 2029 (1 очередь)",
+      "description": "Один дом на 7 секций комфорт-класса на ул. Тимура Сиразетдинова в 3-м Парголово; участок раньше был у ЦДС. 16–17 этажей, 978 квартир от студий до евро-4 площадью 22–75 м²; на первых этажах коммерция больше 2 тыс. м², пристроенный детский сад на 110 мест и отдельный паркинг на 456 машино-мест. Рядом Шуваловский парк, Орловский карьер и Суздальские озёра; до станции Парголово около 1,4 км. Сдачу заявляют на 2029 год (срок может сдвинуться ближе к 2030). Получено разрешение на строительство. Продажи стартовали: в продаже 1 очередь, корпус 1, срок — 1 кв. 2029.",
+      "internalNote": "Пост 1272 (04.11.2026, альбом 1272–1278). На сайте застройщика проект также как «Кронунг-Парголово» (kronung.group/kronung-pargolovo). РНС уже получено — статус soon. Рендеры — официальные webp с kronung.group (без пережатия); слайды поста с текстом не брали. Координаты — ул. Тимура Сиразетдинова (Nominatim). 11.11.2026: Максим сообщил старт продаж, цены с его скриншота (1 очередь, корпус 1, 1 кв. 2029, 78 квартир).",
       "sources": [
         "https://t.me/Max_pro_flat/1272",
         "https://kronung.group/kronung-pargolovo/"
@@ -3024,18 +3024,54 @@
         "img/spb-kronung-sever/1.webp",
         "img/spb-kronung-sever/2.webp",
         "img/spb-kronung-sever/3.webp",
-        "img/spb-kronung-sever/4.webp"
+        "img/spb-kronung-sever/4.webp",
+        "img/spb-kronung-sever/5.webp",
+        "img/spb-kronung-sever/6.webp"
       ],
       "imageSources": [
+        "https://kronung.spb.ru/www/themes/kronung/assets/img/sever/gallery/15.webp",
         "https://kronung.group/www/themes/tckronung/assets/img/kronung-pargolovo/kronung-pargolovo-ot-kronung-grupp-1.webp",
         "https://kronung.group/www/themes/tckronung/assets/img/kronung-pargolovo/kronung-pargolovo-ot-kronung-grupp-2.webp",
-        "https://kronung.group/www/themes/tckronung/assets/img/kronung-pargolovo/kronung-pargolovo-ot-kronung-grupp-3.webp",
-        "https://kronung.group/www/themes/tckronung/assets/img/kronung-pargolovo/kronung-pargolovo-ot-kronung-grupp-4.webp"
+        "https://kronung.spb.ru/www/themes/kronung/assets/img/sever/home-bg-3.webp",
+        "https://kronung.spb.ru/www/themes/kronung/assets/img/sever/gallery/02.webp",
+        "https://kronung.group/www/themes/tckronung/assets/img/kronung-pargolovo/kronung-pargolovo-ot-kronung-grupp-3.webp"
       ],
       "lat": 60.0692,
       "lng": 30.2608,
       "coordPrecision": "approx",
-      "verified": false
+      "verified": false,
+      "saleSince": "2026-11-11",
+      "prices": {
+        "asOf": "2026-11-11",
+        "from": "от 5 712 040 ₽",
+        "items": [
+          {
+            "label": "Студии, от 23.41 м²",
+            "value": "от 5 712 040 ₽"
+          },
+          {
+            "label": "1-к.кв, от 29.47 м²",
+            "value": "от 7 514 850 ₽"
+          },
+          {
+            "label": "2Е-к.кв, от 37.07 м²",
+            "value": "от 8 924 260 ₽"
+          },
+          {
+            "label": "2-к.кв, от 55 м²",
+            "value": "от 13 306 580 ₽"
+          },
+          {
+            "label": "3Е-к.кв, от 48.95 м²",
+            "value": "от 12 531 200 ₽"
+          },
+          {
+            "label": "4Е-к.кв, от 69.08 м²",
+            "value": "от 16 233 800 ₽"
+          }
+        ],
+        "note": "1 очередь, корпус 1, 78 квартир, срок — 1 кв. 2029"
+      }
     },
     {
       "id": "spb-pik-zapadny-kronshpits",
